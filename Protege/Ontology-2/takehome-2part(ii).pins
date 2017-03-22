@@ -1,0 +1,21 @@
+; Fri Oct 30 12:16:02 EDT 2015
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([KB_742819_Class5] of  %3APAL-CONSTRAINT
+
+	(%3APAL-NAME "Jesse"))
+
+([takehome-2part%28i%29_Class20] of  %3APAL-CONSTRAINT
+
+	(%3APAL-DESCRIPTION "jesse is an instance of golden retriever")
+	(%3APAL-NAME "Jesse"))
+
+([takehome-2part%28i%29_Class21] of  Golden+Retriever
+
+	(Age 3.5)
+	(has-owner "Leslie Schalkoff")
+	(likes "Riding in cars")
+	(Name "Jesse")
+	(owns "tennis ball"))

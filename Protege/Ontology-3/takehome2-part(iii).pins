@@ -1,0 +1,705 @@
+; Fri Oct 30 12:03:07 EDT 2015
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([takehome2-part%28iii%29_Class1] of  Tanks
+
+	(Armament "120 mm rifle gun")
+	(caliber 120.0)
+	(Crew 4)
+	(Defunct TRUE)
+	(Height%28m%29 2.32)
+	(Length%28m%29 10.638)
+	(Name "Arjun Mbt")
+	(Number+available 248)
+	(Origin "India")
+	(Speed%28km%2Fhr%29 67.0)
+	(Suspension "hydro-pneumatic")
+	(Weight%28tonnes%29 58.5)
+	(Width%28m%29 3.864))
+
+([takehome2-part%28iii%29_Class10001] of  Artillery
+
+	(Caliber%28mm%29 "155")
+	(Name "M777 Howitzer")
+	(Origin "USA")
+	(Type "Howitzer"))
+
+([takehome2-part%28iii%29_Class10002] of  Artillery
+
+	(Caliber%28mm%29 "155*45")
+	(Name "Dhanush Howitzer")
+	(Origin "India")
+	(Type "Howizter"))
+
+([takehome2-part%28iii%29_Class10003] of  Artillery
+
+	(Caliber%28mm%29 "155")
+	(Name "Haubits FH77/B")
+	(Origin "Sweden")
+	(Type "Howitzer"))
+
+([takehome2-part%28iii%29_Class10004] of  Artillery
+
+	(Caliber%28mm%29 "155*46")
+	(Name "M-46")
+	(Origin
+		"Soviet Union"
+		"Israel")
+	(Type "Howitzer"))
+
+([takehome2-part%28iii%29_Class10005] of  Artillery
+
+	(Caliber%28mm%29 "155*30")
+	(Name "D-30")
+	(Origin "Soviet Union")
+	(Type "Howitzer"))
+
+([takehome2-part%28iii%29_Class10006] of  Artillery
+
+	(Caliber%28mm%29 "180*23")
+	(Name "gun S-23")
+	(Origin "Soviet Union")
+	(Type "Heavy gun"))
+
+([takehome2-part%28iii%29_Class10007] of  Artillery
+
+	(Caliber%28mm%29 "155")
+	(Name "K9 VAJRA-T")
+	(Origin "India")
+	(Type "Self-propelled Artillery"))
+
+([takehome2-part%28iii%29_Class10017] of  Ballistic+and+cruise+missles
+
+	(Name "Brahmos")
+	(Origin
+		"India"
+		"Russia")
+	(range%28km%29 300)
+	(Type "stealth-cruise"))
+
+([takehome2-part%28iii%29_Class10018] of  Ballistic+and+cruise+missles
+
+	(Name "Nirbhay")
+	(Origin "India")
+	(range%28km%29 1500)
+	(Type "cruise"))
+
+([takehome2-part%28iii%29_Class10019] of  Ballistic+and+cruise+missles
+
+	(Name "Prahaar")
+	(Origin "India")
+	(range%28km%29 150)
+	(Type "tacital-ballistic"))
+
+([takehome2-part%28iii%29_Class10020] of  Ballistic+and+cruise+missles
+
+	(Name "prithvi-i")
+	(Origin "India")
+	(range%28km%29 150)
+	(Type "short-range ballistic"))
+
+([takehome2-part%28iii%29_Class10021] of  Ballistic+and+cruise+missles
+
+	(Name "prithvi-iii")
+	(Origin "India")
+	(range%28km%29 600)
+	(Type "short-range ballistic"))
+
+([takehome2-part%28iii%29_Class10022] of  Ballistic+and+cruise+missles
+
+	(Name "prithvi-ii")
+	(Origin "India")
+	(range%28km%29 350)
+	(Type "short-range ballistic"))
+
+([takehome2-part%28iii%29_Class10023] of  Ballistic+and+cruise+missles
+
+	(Name "Shaurya")
+	(Origin "India")
+	(range%28km%29 1900)
+	(Type "medium-range ballistic"))
+
+([takehome2-part%28iii%29_Class10025] of  Ballistic+and+cruise+missles
+
+	(Name "Agni-i")
+	(Origin "India")
+	(range%28km%29 1250)
+	(Type "Medium-ballistic"))
+
+([takehome2-part%28iii%29_Class10026] of  Ballistic+and+cruise+missles
+
+	(Name "Agni-v")
+	(Origin "India")
+	(range%28km%29 8000)
+	(Type "intercontinental-ballistic"))
+
+([takehome2-part%28iii%29_Class10027] of  Ballistic+and+cruise+missles
+
+	(Name "Agni-iv")
+	(Origin "India")
+	(range%28km%29 6000)
+	(Type "intermediate-ballistic"))
+
+([takehome2-part%28iii%29_Class10028] of  Ballistic+and+cruise+missles
+
+	(Name "Agni-iii")
+	(Origin "India")
+	(range%28km%29 5000)
+	(Type "intermediate-ballistic"))
+
+([takehome2-part%28iii%29_Class10029] of  Ballistic+and+cruise+missles
+
+	(Name "Agni-ii")
+	(Origin "India")
+	(range%28km%29 3500)
+	(Type "intermediate-ballistic"))
+
+([takehome2-part%28iii%29_Class10030] of  Ballistic+and+cruise+missles
+
+	(Name "Agni-vi")
+	(Origin "India")
+	(range%28km%29 10000)
+	(Type "intercontinental-ballistic"))
+
+([takehome2-part%28iii%29_Class11] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62*54")
+	(Name "PKM")
+	(Origin "Soviet Union")
+	(Type "General purpose machine gun")
+	(Used+by [takehome2-part%28iii%29_Class20004]))
+
+([takehome2-part%28iii%29_Class12] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62*54")
+	(Name "Dragunov SVD59")
+	(Origin
+		"Soviet Union"
+		"India")
+	(Type "Sniper rifle")
+	(Used+by [takehome2-part%28iii%29_Class20010]))
+
+([takehome2-part%28iii%29_Class13] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62*39")
+	(Name "AK-103")
+	(Origin "Russia")
+	(Type "Assault rifle")
+	(Used+by
+		[takehome2-part%28iii%29_Class20008]
+		[takehome2-part%28iii%29_Class20003]))
+
+([takehome2-part%28iii%29_Class17] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62")
+	(Name "MG 2A1")
+	(NATO TRUE)
+	(Origin
+		"Belgium"
+		"India")
+	(Type "General purpose machine gun")
+	(Used+by [takehome2-part%28iii%29_Class20003]))
+
+([takehome2-part%28iii%29_Class18] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62")
+	(Name "MG 6A")
+	(NATO TRUE)
+	(Origin
+		"Belgium"
+		"India")
+	(Type "General purpose machine gun")
+	(Used+by [takehome2-part%28iii%29_Class20003]))
+
+([takehome2-part%28iii%29_Class19] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62")
+	(Name "MG 5A")
+	(NATO TRUE)
+	(Origin
+		"Belgium"
+		"India")
+	(Type "General purpose machine gun")
+	(Used+by [takehome2-part%28iii%29_Class20003]))
+
+([takehome2-part%28iii%29_Class2] of  Tanks
+
+	(Armament "125mm smooth boregun")
+	(caliber 125.0)
+	(Crew 4)
+	(Height%28m%29 2.22)
+	(Length%28m%29 9.63)
+	(Name "T-90 Bhishma")
+	(Number+available 1250)
+	(Origin
+		"Russia"
+		"India")
+	(Speed%28km%2Fhr%29 60.0)
+	(Suspension "Torsion bar")
+	(Weight%28tonnes%29 46.0)
+	(Width%28m%29 3.78))
+
+([takehome2-part%28iii%29_Class20] of  Small+Arms
+
+	(Caliber%28mm%29 "5.56")
+	(Name "INSAS LMG")
+	(NATO TRUE)
+	(Origin "India")
+	(Type "Light Machine Gun")
+	(Used+by [takehome2-part%28iii%29_Class20004]))
+
+([takehome2-part%28iii%29_Class20003] of  Special+forces
+
+	(Equipment+used
+		[takehome2-part%28iii%29_Class34]
+		[takehome2-part%28iii%29_Class17]
+		[takehome2-part%28iii%29_Class19]
+		[takehome2-part%28iii%29_Class18]
+		[takehome2-part%28iii%29_Class13])
+	(Motto "Omnipresent omnipotent defense")
+	(Name "National Security Guards"))
+
+([takehome2-part%28iii%29_Class20004] of  Special+forces
+
+	(Equipment+used
+		[takehome2-part%28iii%29_Class34]
+		[takehome2-part%28iii%29_Class32]
+		[takehome2-part%28iii%29_Class20]
+		[takehome2-part%28iii%29_Class11]
+		[takehome2-part%28iii%29_Class9])
+	(Motto "Men apart,every man an emperor")
+	(Name "Para Commandos"))
+
+([takehome2-part%28iii%29_Class20008] of  Special+forces
+
+	(Equipment+used
+		[takehome2-part%28iii%29_Class30]
+		[takehome2-part%28iii%29_Class26]
+		[takehome2-part%28iii%29_Class27]
+		[takehome2-part%28iii%29_Class13])
+	(Motto "The few,the fearless")
+	(Name "MARCOS"))
+
+([takehome2-part%28iii%29_Class20009] of  Special+forces
+
+	(Equipment+used
+		[takehome2-part%28iii%29_Class25]
+		[takehome2-part%28iii%29_Class24])
+	(Motto "Bravery,Dedication,Security")
+	(Name "Special protection group"))
+
+([takehome2-part%28iii%29_Class20010] of  Special+forces
+
+	(Equipment+used
+		[takehome2-part%28iii%29_Class22]
+		[takehome2-part%28iii%29_Class23]
+		[takehome2-part%28iii%29_Class12])
+	(Name "Snipers"))
+
+([takehome2-part%28iii%29_Class20012] of  Officers
+
+	(Baton TRUE)
+	(Five-pointed+Star 5)
+	(Lotus+bottom+wreath TRUE)
+	(Name "Field Marshal")
+	(National+Emblem TRUE)
+	(Saber TRUE))
+
+([takehome2-part%28iii%29_Class20013] of  Officers
+
+	(Baton TRUE)
+	(Five-pointed+Star 1)
+	(Name "General")
+	(National+Emblem TRUE)
+	(Priority 1)
+	(Responsible+for
+		[takehome2-part%28iii%29_Class20016]
+		[takehome2-part%28iii%29_Class20020]
+		[takehome2-part%28iii%29_Class20017]
+		[takehome2-part%28iii%29_Class20021]
+		[takehome2-part%28iii%29_Class20018]
+		[takehome2-part%28iii%29_Class20014]
+		[takehome2-part%28iii%29_Class20019]
+		[takehome2-part%28iii%29_Class20015])
+	(retirement+Age 62)
+	(Saber TRUE)
+	(Salary 90000))
+
+([takehome2-part%28iii%29_Class20014] of  Officers
+
+	(Baton TRUE)
+	(Name "Lieutenant general")
+	(National+Emblem TRUE)
+	(Priority 2)
+	(Responsible+for
+		[takehome2-part%28iii%29_Class20016]
+		[takehome2-part%28iii%29_Class20020]
+		[takehome2-part%28iii%29_Class20017]
+		[takehome2-part%28iii%29_Class20021]
+		[takehome2-part%28iii%29_Class20018]
+		[takehome2-part%28iii%29_Class20019]
+		[takehome2-part%28iii%29_Class20015])
+	(retirement+Age 60)
+	(Saber TRUE)
+	(Salary 80000))
+
+([takehome2-part%28iii%29_Class20015] of  Officers
+
+	(Baton TRUE)
+	(Five-pointed+Star 1)
+	(Name "Major general")
+	(Priority 3)
+	(Responsible+for
+		[takehome2-part%28iii%29_Class20016]
+		[takehome2-part%28iii%29_Class20020]
+		[takehome2-part%28iii%29_Class20017]
+		[takehome2-part%28iii%29_Class20021]
+		[takehome2-part%28iii%29_Class20018]
+		[takehome2-part%28iii%29_Class20019])
+	(retirement+Age 58)
+	(Saber TRUE)
+	(Salary 79000))
+
+([takehome2-part%28iii%29_Class20016] of  Officers
+
+	(Five-pointed+Star 3)
+	(Name "Brigadier")
+	(National+Emblem TRUE)
+	(Priority 4)
+	(Responsible+for
+		[takehome2-part%28iii%29_Class20020]
+		[takehome2-part%28iii%29_Class20017]
+		[takehome2-part%28iii%29_Class20021]
+		[takehome2-part%28iii%29_Class20018]
+		[takehome2-part%28iii%29_Class20019])
+	(retirement+Age 56)
+	(Salary 67000))
+
+([takehome2-part%28iii%29_Class20017] of  Officers
+
+	(Five-pointed+Star 2)
+	(Name "Colonel")
+	(National+Emblem TRUE)
+	(Priority 5)
+	(Responsible+for
+		[takehome2-part%28iii%29_Class20020]
+		[takehome2-part%28iii%29_Class20021]
+		[takehome2-part%28iii%29_Class20018]
+		[takehome2-part%28iii%29_Class20019])
+	(retirement+Age 54)
+	(Salary 67000))
+
+([takehome2-part%28iii%29_Class20018] of  Officers
+
+	(Five-pointed+Star 1)
+	(Name "Lieutenant Colonel")
+	(National+Emblem TRUE)
+	(Priority 6)
+	(Responsible+for
+		[takehome2-part%28iii%29_Class20020]
+		[takehome2-part%28iii%29_Class20021]
+		[takehome2-part%28iii%29_Class20019])
+	(retirement+Age 57)
+	(Salary 67000))
+
+([takehome2-part%28iii%29_Class20019] of  Officers
+
+	(Name "Major")
+	(National+Emblem TRUE)
+	(Priority 7)
+	(Responsible+for
+		[takehome2-part%28iii%29_Class20020]
+		[takehome2-part%28iii%29_Class20021])
+	(retirement+Age 57)
+	(Salary 67000))
+
+([takehome2-part%28iii%29_Class20020] of  Officers
+
+	(Five-pointed+Star 3)
+	(Name "Captain")
+	(Priority 8)
+	(Responsible+for [takehome2-part%28iii%29_Class20021])
+	(retirement+Age 57)
+	(Salary 39100))
+
+([takehome2-part%28iii%29_Class20021] of  Officers
+
+	(Five-pointed+Star 2)
+	(Name "Lieutenant")
+	(Priority 9)
+	(retirement+Age 57)
+	(Salary 39000))
+
+([takehome2-part%28iii%29_Class22] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62")
+	(Name "IMI Galil sniper7.62  rifle")
+	(Origin "Israel")
+	(Type "Sniper Rifle")
+	(Used+by [takehome2-part%28iii%29_Class20010]))
+
+([takehome2-part%28iii%29_Class23] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62")
+	(Name "Mauser SP66")
+	(NATO TRUE)
+	(Origin "Germany")
+	(Type "Sniper rifle")
+	(Used+by [takehome2-part%28iii%29_Class20010]))
+
+([takehome2-part%28iii%29_Class24] of  Small+Arms
+
+	(Caliber%28mm%29 "5.56*45")
+	(Name "FN F2000")
+	(NATO TRUE)
+	(Origin "Belgium")
+	(Type "Bull Pup Assault rifle")
+	(Used+by [takehome2-part%28iii%29_Class20009]))
+
+([takehome2-part%28iii%29_Class25] of  Small+Arms
+
+	(Caliber%28mm%29 "5.7*28")
+	(Name "FN P90")
+	(NATO TRUE)
+	(Origin "Belgium")
+	(Type "Bull pup rifle")
+	(Used+by [takehome2-part%28iii%29_Class20009]))
+
+([takehome2-part%28iii%29_Class26] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62*51")
+	(Name "Heckler & Koch MP5")
+	(NATO TRUE)
+	(Origin "Germany")
+	(Type "Machine pistol rifle")
+	(Used+by [takehome2-part%28iii%29_Class20008]))
+
+([takehome2-part%28iii%29_Class27] of  Small+Arms
+
+	(Caliber%28mm%29 "7.62")
+	(Name "Heckler & Koch PSG1")
+	(NATO TRUE)
+	(Origin "Germany")
+	(Type "Sniper rifle")
+	(Used+by [takehome2-part%28iii%29_Class20008]))
+
+([takehome2-part%28iii%29_Class3] of  Tanks
+
+	(Armament "125mm smoothbore gun")
+	(caliber 125.0)
+	(Crew 3)
+	(Height%28m%29 2.71)
+	(Length%28m%29 9.78)
+	(Name "T-72 Ajeya")
+	(Number+available 2414)
+	(Origin
+		"Soviet Union"
+		"Poland"
+		"India")
+	(Speed%28km%2Fhr%29 60.0)
+	(Suspension "Torsion bar")
+	(Weight%28tonnes%29 43.0)
+	(Width%28m%29 3.16))
+
+([takehome2-part%28iii%29_Class30] of  Small+Arms
+
+	(Caliber%28mm%29 "5.56")
+	(Name "IMI Tavor TAR-21")
+	(NATO TRUE)
+	(Origin "Israel")
+	(Type "Assault rifle")
+	(Used+by [takehome2-part%28iii%29_Class20008]))
+
+([takehome2-part%28iii%29_Class32] of  Small+Arms
+
+	(Caliber%28mm%29 "9*19")
+	(Name "Micro-Uzi")
+	(Origin "Israel")
+	(Type "Sub-Machine gun")
+	(Used+by [takehome2-part%28iii%29_Class20004]))
+
+([takehome2-part%28iii%29_Class34] of  Small+Arms
+
+	(Caliber%28mm%29 "9*19")
+	(Name "Glock 17")
+	(Origin "Austria")
+	(Type "Semi-automatic Pistol")
+	(Used+by
+		[takehome2-part%28iii%29_Class20003]
+		[takehome2-part%28iii%29_Class20004]))
+
+([takehome2-part%28iii%29_Class35] of  Small+Arms
+
+	(Caliber%28mm%29 "9*19")
+	(Name "Pistol Auto 9mm 1A")
+	(Origin
+		"India"
+		"Canada")
+	(Type "Semi-automatic Pistol"))
+
+([takehome2-part%28iii%29_Class39] of  Grenade+launcher
+
+	(Caliber%28mm%29 "40")
+	(Name "GP-25")
+	(Origin "Soviet Union")
+	(Type "Grenade Launcher"))
+
+([takehome2-part%28iii%29_Class4] of  Tanks
+
+	(Armament "100mm rifle gun")
+	(caliber 100.0)
+	(Crew 4)
+	(Defunct TRUE)
+	(Height%28m%29 2.4)
+	(Length%28m%29 6.45)
+	(Name "T-55")
+	(Origin "India")
+	(Speed%28km%2Fhr%29 48.0)
+	(Suspension "Torsion bar")
+	(Weight%28tonnes%29 36.0)
+	(Width%28m%29 3.37))
+
+([takehome2-part%28iii%29_Class40] of  Grenade+launcher
+
+	(Caliber%28mm%29 "40")
+	(Name "Multi Grenade launcher")
+	(Origin "India")
+	(Type "Grenade Launcher"))
+
+([takehome2-part%28iii%29_Class5] of  Tanks
+
+	(Armament "105mm L7A2")
+	(caliber 105.0)
+	(Crew 4)
+	(Defunct TRUE)
+	(Height%28m%29 2.71)
+	(Length%28m%29 9.7)
+	(Name "Vijayanta")
+	(Origin "India")
+	(Speed%28km%2Fhr%29 50.0)
+	(Suspension "Torsion bar")
+	(Weight%28tonnes%29 43.0)
+	(Width%28m%29 3.16))
+
+([takehome2-part%28iii%29_Class52] of  Grenade
+
+	(Name "Grenade")
+	(Origin "India")
+	(Type "Hand grenade"))
+
+([takehome2-part%28iii%29_Class54] of  Grenade
+
+	(Name "Multi Mode Grenade Shivalik")
+	(Origin "India")
+	(Type "Hand grenade"))
+
+([takehome2-part%28iii%29_Class59] of  Mortar
+
+	(Caliber%28mm%29 "51")
+	(Name "OFB E1")
+	(Origin "India"))
+
+([takehome2-part%28iii%29_Class60] of  Mortar
+
+	(Caliber%28mm%29 "81")
+	(Name "OFB E1")
+	(Origin "India"))
+
+([takehome2-part%28iii%29_Class61] of  Mortar
+
+	(Caliber%28mm%29 "81")
+	(Name "L16")
+	(Origin
+		"UK"
+		"Canada"))
+
+([takehome2-part%28iii%29_Class62] of  Mortar
+
+	(Caliber%28mm%29 "120")
+	(Name "OFB E1")
+	(Origin "India"))
+
+([takehome2-part%28iii%29_Class66] of  Helicopter
+
+	(extra+ordered 40)
+	(Name "HALl Rudra")
+	(Number+available 20)
+	(Origin "India")
+	(Type "Attack Helicopter")
+	(Version "ALH-WSI"))
+
+([takehome2-part%28iii%29_Class67] of  Helicopter
+
+	(extra+ordered 151)
+	(Name "HAL Dhruv")
+	(Number+available 73)
+	(Origin "India")
+	(Type "Utility helicopter"))
+
+([takehome2-part%28iii%29_Class68] of  Helicopter
+
+	(extra+ordered 18)
+	(Name "HAL Cheetah")
+	(Number+available 23)
+	(Origin "India")
+	(Type "Utility helicopter")
+	(Version "Cheetah"))
+
+([takehome2-part%28iii%29_Class69] of  Helicopter
+
+	(extra+ordered 18)
+	(Name "HAL Cheetal")
+	(Number+available 4)
+	(Origin "India")
+	(Type "Utility helicopter")
+	(Version "Cheetal"))
+
+([takehome2-part%28iii%29_Class70] of  Helicopter
+
+	(extra+ordered 18)
+	(Name "HAL Lancer")
+	(Number+available 12)
+	(Origin "India")
+	(Type "Utility helicopter")
+	(Version "Lancer"))
+
+([takehome2-part%28iii%29_Class71] of  Helicopter
+
+	(Name "HAL Chetak")
+	(Number+available 4)
+	(Origin "India")
+	(Type "Utility helicopter")
+	(Version "Chetak"))
+
+([takehome2-part%28iii%29_Class72] of  Helicopter
+
+	(Name "HAL Chetan")
+	(Number+available 4)
+	(Origin "India")
+	(Type "Utility helicopter")
+	(Version "Chetan"))
+
+([takehome2-part%28iii%29_Class73] of  Helicopter
+
+	(extra+ordered 114)
+	(Name "HAL light combat helicopter")
+	(Origin "India")
+	(Type "Attack helicopter")
+	(Version "LCH"))
+
+([takehome2-part%28iii%29_Class74] of  Helicopter
+
+	(Name "HAL LUH")
+	(Origin "India")
+	(Type "Utility/Observation helicopter")
+	(Version "LCH"))
+
+([takehome2-part%28iii%29_Class9] of  Small+Arms
+
+	(Caliber%28mm%29 "12.7*108")
+	(Name "NSV")
+	(Origin "Soviet Union")
+	(Type "Heavy machine gun")
+	(Used+by [takehome2-part%28iii%29_Class20004]))

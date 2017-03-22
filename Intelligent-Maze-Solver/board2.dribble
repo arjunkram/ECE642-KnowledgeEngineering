@@ -1,0 +1,68 @@
+TRUE
+CLIPS> (load "C:/Users/arjun/Desktop/knowledge engineering code old/board2final.clp")
+Defining deftemplate: cell
+Defining deffacts: start
+Defining deftemplate: start_end_cells
+Defining defglobal: up
+Defining defglobal: down
+Defining defglobal: left
+Defining defglobal: right
+Defining defglobal: distance
+Defining defglobal: adistance
+Defining deftemplate: current_cell
+Defining defrule: findSandE +j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+Defining defrule: down +j+j+j+j+j
+Defining defrule: left =j+j+j+j+j
+Defining defrule: right =j+j+j+j+j
+Defining defrule: up =j+j+j+j+j
+Defining defrule: movedownagain =j+j+j+j+j
+Defining defrule: moveupagain =j=j+j+j+j
+Defining defrule: moverightagain =j=j+j+j+j
+Defining defrule: moveleftagain =j=j+j+j+j
+Defining defrule: move-no-more =j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+Defining defrule: evalsalience +j+j
+Defining defrule: ended =j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+TRUE
+CLIPS> (reset)
+CLIPS> (run)
+
+oExoxoxoxox
+xoxoxxxxxox
+xoooooxoxox
+xoooooooxox
+ooooooxoxox
+xoxooSoooox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxxxxxxxox
+xoxoooooxox
+xxxxxxxoxox
+moving up
+moving up
+moving up
+moving left
+moving left
+moving up
+moving up
+tracking back down
+tracking back down
+moving left
+moving left
+moving up
+moving up
+The End :row 1 col 2
+number of steps taken is 13
+shortest distance is 9
+
+o*x.xoxoxox
+x*x.xxxxxox
+x*****xoxox
+xoooo*ooxox
+ooooo*xoxox
+xoxooSoooox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxxxxxxxox
+xoxoooooxox
+xxxxxxxoxox
+CLIPS> (dribble-off)

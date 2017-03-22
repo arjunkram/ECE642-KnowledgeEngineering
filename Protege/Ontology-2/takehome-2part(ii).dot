@@ -1,0 +1,17 @@
+digraph "takehome-2part(ii)" {
+	node [label="\N"];
+	graph [bb="0,0,194,808"];
+	Mammal [label="{Mammal|{offspring|String}|{blood type|String}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="97,648", rects="34,660,160,684 34,636,105,660 105,636,160,660 34,612,110,636 110,612,160,636", width="1.75", height="1.00"];
+	Lifeform [label="{Lifeform|{Produces|String}|{Consumes|String*}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="97,772", rects="32,784,162,808 32,760,106,784 106,760,162,784 32,736,106,760 106,736,162,760", width="1.81", height="1.00"];
+	"takehome-2part(i)_Class21" [label="{Jesse|{coat-type =|{heavy fur}}|{frame-size =|{large}}|{likes =|{Riding in cars}}|{has-owner =|{Leslie Schalkoff}}|{Age =|{3.5}\
+}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="97,84", rects="0,144,194,168 0,120,102,144 102,120,194,144 0,96,118,120 118,96,194,120 0,72,76,96 76,72,194,96 0,48,87,72 87,48,194,72 0,24,106\
+,48 106,24,194,48 0,0,194,24", width="2.69", height="2.33"];
+	"Golden Retriever" [label="{Golden Retriever|{coat-type|String}|{frame-size|String}|{likes|String}|{has-owner|String}|{Age|Float}|{...}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="97,304", rects="35,364,160,388 35,340,106,364 106,340,160,364 35,316,109,340 109,316,160,340 35,292,94,316 94,292,160,316 35,268,110,292 110,268\
+,160,292 35,244,94,268 94,244,160,268 35,220,160,244", width="1.72", height="2.33"];
+	Dog [label="{Dog|{has-legs|String}|{hates|String}|{Name|String}|{has-dish|String}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="97,500", rects="41,536,154,560 41,512,104,536 104,512,154,536 41,488,95,512 95,488,154,512 41,464,98,488 98,464,154,488 41,440,104,464 104,440,1\
+54,464", width="1.56", height="1.67"];
+	Lifeform -> Mammal [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,97,736 97,726 97,712 97,698 97,684", lp="105,710"];
+	"Golden Retriever" -> "takehome-2part(i)_Class21" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,97,220 97,210 97,196 97,182 97,168", lp="102,194"];
+	Mammal -> Dog [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,97,612 97,602 97,588 97,574 97,560", lp="105,586"];
+	Dog -> "Golden Retriever" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,97,440 97,430 97,416 97,402 97,388", lp="105,414"];
+}

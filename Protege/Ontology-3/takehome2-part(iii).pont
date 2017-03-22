@@ -1,0 +1,473 @@
+; Fri Oct 30 12:03:07 EDT 2015
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot Weight%28tonnes%29
+;+		(comment "weight of the tank in tonnes")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Name
+;+		(comment "name of the equipment")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Suspension
+;+		(comment "suspension in bar")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot BMG
+;+		(comment "true if the specifications are BMG specified")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Crew
+;+		(comment "number of people inside the tank")
+		(type INTEGER)
+		(range 1 %3FVARIABLE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot caliber
+;+		(comment "caliber of tanks")
+		(type FLOAT)
+		(range 90.0 %3FVARIABLE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Baton
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Type
+;+		(comment "specifies the variance of the weapon used")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Number+available
+;+		(comment "specifies the number of the particular equipment the indian army currently has")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Defunct
+;+		(comment "true if the tanks are not in use anymore")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Height%28m%29
+;+		(comment "Height of the tank in metres")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Five-pointed+Star
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type INTEGER)
+		(range 0 5)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Caliber%28mm%29
+;+		(comment "specifies calibre of the weapon")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot NATO
+;+		(comment "true if the specifications are NATO specified")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot MINSAS
+;+		(comment "true if the specifications are MINSAS specified")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot National+Emblem
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Length%28m%29
+;+		(comment "length of the tank in metres")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Motto
+;+		(comment "motto of the group")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot SPC
+;+		(comment "true if the specifications are SPC specified")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Origin
+;+		(comment "where the equipmwnt was made")
+		(type STRING)
+		(default "India")
+		(create-accessor read-write))
+	(single-slot Saber
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Version
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Priority
+;+		(comment "priority signifies the importance of the post held")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot extra+ordered
+;+		(comment "specifies the extra number of helicopters ordered")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Armament
+;+		(comment "Main armament of tank")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Salary
+;+		(comment "The salary for officers in the army")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Speed%28km%2Fhr%29
+;+		(comment "speed in km/hr")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Lotus+bottom+wreath
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Equipment+used
+;+		(comment "Lists the weapons used by the personnel")
+		(type INSTANCE)
+;+		(allowed-classes Infantry+Weapons)
+;+		(inverse-slot Used+by)
+		(create-accessor read-write))
+	(single-slot retirement+Age
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Width%28m%29
+;+		(comment "width in metres")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Responsible+for
+;+		(comment "Lists the personnel whom the officer is responsible for")
+		(type INSTANCE)
+;+		(allowed-classes Officers)
+		(create-accessor read-write))
+	(multislot Used+by
+;+		(comment "Lists which personnel uses the weapon")
+		(type INSTANCE)
+;+		(allowed-classes Special+forces)
+;+		(inverse-slot Equipment+used)
+		(create-accessor read-write))
+	(single-slot range%28km%29
+;+		(comment "range of the missile")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Indian+Army "Indian Army is the largest component of Indian Armed forces. The President of India serves as Commander-in-Chief of the army, and it is commanded by the Chief of Army Staff (COAS), who is a four-star general."
+	(is-a USER)
+	(role concrete)
+	(single-slot Name
+;+		(comment "name of the equipment")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Machinery+and+weapons "Vehicles and Infantry weapons used by Indian Army"
+	(is-a Indian+Army)
+	(role concrete)
+	(multislot Origin
+;+		(comment "where the equipmwnt was made")
+		(type STRING)
+		(default "India")
+		(create-accessor read-write)))
+
+(defclass Tanks "A battle tank is a tank that fills the heavy direct fire role of many modern armies.Indian Army comprises of some of the best battle tanks."
+	(is-a Machinery+and+weapons)
+	(role concrete)
+	(single-slot caliber
+;+		(comment "caliber of tanks")
+		(type FLOAT)
+		(range 90.0 %3FVARIABLE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Speed%28km%2Fhr%29
+;+		(comment "speed in km/hr")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Weight%28tonnes%29
+;+		(comment "weight of the tank in tonnes")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Width%28m%29
+;+		(comment "width in metres")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Armament
+;+		(comment "Main armament of tank")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Length%28m%29
+;+		(comment "length of the tank in metres")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Number+available
+;+		(comment "specifies the number of the particular equipment the indian army currently has")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Suspension
+;+		(comment "suspension in bar")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Defunct
+;+		(comment "true if the tanks are not in use anymore")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Crew
+;+		(comment "number of people inside the tank")
+		(type INTEGER)
+		(range 1 %3FVARIABLE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Height%28m%29
+;+		(comment "Height of the tank in metres")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Infantry+Weapons "Weapons used by indian infantry"
+	(is-a Machinery+and+weapons)
+	(role concrete)
+	(single-slot Type
+;+		(comment "Weapons used by the Infantry in the indian army")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Used+by
+;+		(comment "Lists which personnel uses the weapon")
+		(type INSTANCE)
+;+		(allowed-classes Special+forces)
+		(create-accessor read-write)))
+
+(defclass Small+Arms "Small arms consists of all pistols,rifles and machine guns.Most of the small arms are imported from other countries ."
+	(is-a Infantry+Weapons)
+	(role concrete)
+	(single-slot Caliber%28mm%29
+;+		(comment "specifies calibre of the weapon")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot NATO
+;+		(comment "true if the specifications are NATO specified")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot MINSAS
+;+		(comment "true if the specifications are MINSAS specified")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot BMG
+;+		(comment "true if the specifications are BMG specified")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot SPC
+;+		(comment "true if the specifications are SPC specified")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Grenade+launcher "types of Grenade launcher used by indian army"
+	(is-a Infantry+Weapons)
+	(role concrete)
+	(single-slot Caliber%28mm%29
+;+		(comment "specifies calibre of the weapon")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Grenade "types of Grenades used by indian army"
+	(is-a Infantry+Weapons)
+	(role concrete))
+
+(defclass Mortar "types of Mortars used by indian army"
+	(is-a Infantry+Weapons)
+	(role concrete)
+	(single-slot Caliber%28mm%29
+;+		(comment "specifies calibre of the weapon")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Helicopter "All helicopters used by the indian army are made indigenously"
+	(is-a Machinery+and+weapons)
+	(role concrete)
+	(single-slot Version
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Type
+;+		(comment "specifies the variance of the weapon used")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot extra+ordered
+;+		(comment "specifies the extra number of helicopters ordered")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Number+available
+;+		(comment "specifies the number of the particular equipment the indian army currently has")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Origin
+;+		(comment "where the equipmwnt was made")
+		(type STRING)
+		(default "India")
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Ballistic+and+cruise+missles "A ballistic missile is a missile (rocket) that follows a ballistic trajectory with the objective of delivering a warhead to a predetermined target. A cruise missile is aerodynamically guided in powered flight."
+	(is-a Machinery+and+weapons)
+	(role concrete)
+	(single-slot Type
+;+		(comment "specifies the variance of the weapon used")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot range%28km%29
+;+		(comment "range of the missile")
+		(type INTEGER)
+		(range 100 20000)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Artillery "Artillery is the second largest arm of the Indian Army,and  it constitutes almost one-sixth of its total strength."
+	(is-a Machinery+and+weapons)
+	(role concrete)
+	(single-slot Caliber%28mm%29
+;+		(comment "specifies calibre of the weapon")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Type
+;+		(comment "specifies the variance of the weapon used")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Personnel "Various types of personnel in the Indian Army"
+	(is-a Indian+Army)
+	(role concrete))
+
+(defclass Special+forces "The Special Forces of India refer to those units which are under the direct command of the Indian military and are specifically organized, trained, equipped to conduct and support special operations."
+	(is-a Personnel)
+	(role concrete)
+	(multislot Equipment+used
+;+		(comment "Lists the weapons used by the personnel")
+		(type INSTANCE)
+;+		(allowed-classes Infantry+Weapons)
+		(create-accessor read-write))
+	(single-slot Motto
+;+		(comment "motto of the group")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Officers "The ranks of the officers in the indian Army is similar to British Army Rank"
+	(is-a Personnel)
+	(role concrete)
+	(single-slot Saber
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Five-pointed+Star
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type INTEGER)
+		(range 0 5)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Baton
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot National+Emblem
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Priority
+;+		(comment "priority signifies the importance of the post held")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Lotus+bottom+wreath
+;+		(comment "Specifies whether the following is present on the shoulder badge")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Responsible+for
+;+		(comment "Lists the personnel whom the officer is responsible for")
+		(type INSTANCE)
+;+		(allowed-classes Officers)
+		(create-accessor read-write))
+	(single-slot retirement+Age
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Salary
+;+		(comment "The salary for officers in the army")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))

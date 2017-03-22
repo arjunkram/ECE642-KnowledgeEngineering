@@ -1,0 +1,193 @@
+; Fri Oct 30 12:16:02 EDT 2015
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot offspring
+;+		(comment "mammals offspring are born live")
+		(type STRING)
+;+		(value "born live")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Name
+;+		(comment "Name of the dog")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Age
+;+		(comment "age of  a dog")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Consumes
+;+		(comment "Lifeform consumes oxygen and food")
+		(type STRING)
+;+		(value "Oxygen" "Food")
+		(create-accessor read-write))
+	(single-slot Produces
+;+		(comment "Lifeform produces Waste")
+		(type STRING)
+;+		(value "Waste")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot owns
+;+		(comment "Lists the belonging of a golden retriever")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot has-dish
+;+		(comment "Dogs drink water from a water-dish")
+		(type STRING)
+;+		(value "water")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot frame-size
+;+		(comment "Golden retriever have large frame")
+		(type STRING)
+;+		(value "large")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot hates
+;+		(comment "Dogs usually hates cats")
+		(type STRING)
+;+		(value "cats")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot retrieving+instinct
+;+		(comment "Golden retriever have excellent retrieving skills")
+		(type STRING)
+;+		(value "excellent")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot has-legs
+;+		(comment "Dogs have four legs")
+		(type STRING)
+;+		(value "four")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot blood+type
+;+		(comment "mammals are warm blooded animals")
+		(type STRING)
+;+		(value "warm")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot likes
+;+		(comment "specifies the likes of a dog")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot coat-type
+;+		(comment "Golden retriever have heavy fur coat")
+		(type STRING)
+;+		(value "heavy fur")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot has-owner
+;+		(comment "specifies the owner of every dog")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Lifeform "Lifeform refers to any living being"
+	(is-a USER)
+	(role concrete)
+	(single-slot Produces
+;+		(comment "Lifeform produces Waste")
+		(type STRING)
+;+		(value "Waste")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Consumes
+;+		(comment "Lifeform consumes oxygen and food")
+		(type STRING)
+;+		(value "Oxygen" "Food")
+		(create-accessor read-write)))
+
+(defclass Mammal "Mammals are  distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex"
+	(is-a Lifeform)
+	(role concrete)
+	(single-slot offspring
+;+		(comment "mammals offspring are born live")
+		(type STRING)
+;+		(value "born live")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot blood+type
+;+		(comment "mammals are warm blooded animals")
+		(type STRING)
+;+		(value "warm")
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Dog "Dog is a typeof mammal"
+	(is-a Mammal)
+	(role concrete)
+	(single-slot has-legs
+;+		(comment "Dogs have four legs")
+		(type STRING)
+;+		(value "four")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot hates
+;+		(comment "Dogs usually hates cats")
+		(type STRING)
+;+		(value "cats")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Name
+;+		(comment "Name of the dog")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot has-dish
+;+		(comment "Dogs drink water from a water-dish")
+		(type STRING)
+;+		(value "water")
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Golden+Retriever "The Golden Retriever is a large-sized breed of dog"
+	(is-a Dog)
+	(role concrete)
+	(single-slot coat-type
+;+		(comment "Golden retriever have heavy fur coat")
+		(type STRING)
+;+		(value "heavy fur")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot frame-size
+;+		(comment "Golden retriever have large frame")
+		(type STRING)
+;+		(value "large")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot likes
+;+		(comment "specifies the likes of a dog")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot has-owner
+;+		(comment "specifies the owner of every dog")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Age
+;+		(comment "age of  a dog")
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot retrieving+instinct
+;+		(comment "Golden retriever have excellent retrieving skills")
+		(type STRING)
+;+		(value "excellent")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot owns
+;+		(comment "Lists the belonging of a golden retriever")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))

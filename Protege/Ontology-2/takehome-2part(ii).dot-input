@@ -1,0 +1,12 @@
+digraph "takehome-2part(ii)" {
+
+"Mammal" [shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", label="{Mammal|{offspring|String}|{blood type|String}}"]
+"Lifeform"->"Mammal" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Lifeform" [shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", label="{Lifeform|{Produces|String}|{Consumes|String*}}"]
+"takehome-2part(i)_Class21" [shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", label="{Jesse|{coat-type =|{heavy fur}}|{frame-size =|{large}}|{likes =|{Riding in cars}}|{has-owner =|{Leslie Schalkoff}}|{Age =|{3.5}}|{...}}"]
+"Golden Retriever"->"takehome-2part(i)_Class21" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0"]
+"Dog" [shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", label="{Dog|{has-legs|String}|{hates|String}|{Name|String}|{has-dish|String}}"]
+"Mammal"->"Dog" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Golden Retriever" [shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", label="{Golden Retriever|{coat-type|String}|{frame-size|String}|{likes|String}|{has-owner|String}|{Age|Float}|{...}}"]
+"Dog"->"Golden Retriever" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+}

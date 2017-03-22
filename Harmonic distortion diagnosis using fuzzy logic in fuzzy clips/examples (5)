@@ -1,0 +1,38 @@
+(load "D:/knowledge engg/fuzzy clips/code3final.clp")
+FuzzyCLIPS> Defining deftemplate: voltage
+Defining deftemplate: temperature
+Defining deftemplate: warning
+Defining defrule: rule1 +j+j
+=j+j
+=j+j
+Defining defrule: rule2 =j+j
+Defining defrule: rule3 +j+j
+=j+j
+Defining defrule: rule4 =j+j
+Defining defrule: rule5 =j+j
+Defining defrule: rule6 +j+j
+Defining defrule: rule7 =j+j
+Defining defrule: rule8 =j+j
+=j+j
+Defining defrule: rule9 +j+j
+Defining defrule: rule10 =j+j
+=j+j
+Defining defrule: rule11 =j+j
+Defining defrule: rule12 +j+j
+=j+j
+Defining defrule: rule14 =j+j
+=j+j
+Defining defrule: getTemperatureandVoltage +j
+Defining defrule: FuzzifyTemperatureandVoltage +j+j
+Defining defrule: answer +j
+TRUE
+FuzzyCLIPS> (reset)
+FuzzyCLIPS> (run)
+Enter temperature:(30-100) 
+99
+Enter voltage:(0-10) 
+10
+
+Harmonic Distortion is 5.28373191293748
+Imminent problems,check system
+FuzzyCLIPS> 

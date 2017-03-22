@@ -1,0 +1,65 @@
+TRUE
+CLIPS> (load "C:/Users/arjun/Desktop/knowledge engineering code old/board3final.clp")
+Defining deftemplate: cell
+Defining deffacts: start
+Defining deftemplate: start_end_cells
+Defining defglobal: up
+Defining defglobal: down
+Defining defglobal: left
+Defining defglobal: right
+Defining defglobal: distance
+Defining defglobal: adistance
+Defining deftemplate: current_cell
+Defining defrule: findSandE +j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+Defining defrule: down +j+j+j+j+j
+Defining defrule: left =j+j+j+j+j
+Defining defrule: right =j+j+j+j+j
+Defining defrule: up =j+j+j+j+j
+Defining defrule: movedownagain =j+j+j+j+j
+Defining defrule: moveupagain =j=j+j+j+j
+Defining defrule: moverightagain =j=j+j+j+j
+Defining defrule: moveleftagain =j=j+j+j+j
+Defining defrule: move-no-more =j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+=j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+=j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+=j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+Defining defrule: evalsalience +j+j
+Defining defrule: ended =j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+TRUE
+CLIPS> (reset)
+CLIPS> (run)
+
+ooxoxoxoxox
+oxxoooxxxox
+oooxxoxoxox
+xxxxooooxox
+ooooooxoxox
+xoxooSoooox
+xoxoxoxoxox
+xoxoxoxxxoE
+xoooxxxooox
+xoxoooooxox
+xxxxxxxoxox
+moving right
+moving right
+moving right
+moving right
+moving down
+moving down
+moving right
+The End :row 8 col 11
+number of steps taken is 7
+shortest distance is 7
+
+ooxoxoxoxox
+oxxoooxxxox
+oooxxoxoxox
+xxxxooooxox
+ooooooxoxox
+xoxooS****x
+xoxoxoxox*x
+xoxoxoxxx**
+xoooxxxooox
+xoxoooooxox
+xxxxxxxoxox
+CLIPS> (dribble-off)

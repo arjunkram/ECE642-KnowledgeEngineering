@@ -1,0 +1,300 @@
+digraph "takehome2-part(iii)" {
+	node [label="\N"];
+	graph [bb="0,0,12696,904"];
+	"takehome2-part(iii)_Class10001" [label="{M777 Howitzer|{Caliber(mm) =|{155}}|{Type =|{Howitzer}}|{Origin =|{USA}}|{Name =|{M777 Howitzer}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="3520,364", rects="3436,400,3604,424 3436,376,3550,400 3550,376,3604,400 3436,352,3513,376 3513,352,3604,376 3436,328,3529,352 3529,328,3604,352 34\
+36,304,3498,328 3498,304,3604,328", width="2.33", height="1.67"];
+	Artillery [label="{Artillery|{Caliber(mm)|String}|{Type|String}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="4179,620", rects="4111,632,4248,656 4111,608,4198,632 4198,608,4248,632 4111,584,4176,608 4176,584,4248,608", width="1.89", height="1.00"];
+	"Special forces" [label="{Special forces|{Equipment used|Instance*|{Infantry Weapons}}|{Motto|String}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="827,620", rects="683,632,972,656 683,608,789,632 789,608,858,632 858,608,972,632 683,584,828,608 828,584,972,608", width="4.00", height="1.00"];
+	Personnel [label=Personnel, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="2339,780", width="1.00", height="0.50"];
+	Grenade [label=Grenade, shape=box, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="4782,364", width="0.89", height="0.50"];
+	"Infantry Weapons" [label="{Infantry Weapons|{Type|String}|{Used by|Instance*|{Special forces}}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="6011,620", rects="5897,632,6125,656 5897,608,6008,632 6008,608,6125,632 5897,584,5961,608 5961,584,6030,608 6030,584,6125,608", width="3.17", height="1.00"];
+	"takehome2-part(iii)_Class39" [label="{GP-25|{Caliber(mm) =|{40}}|{Type =|{Grenade Launcher}}|{Origin =|{Soviet Union}}|{Name =|{GP-25}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="3846,96", rects="3759,132,3934,156 3759,108,3880,132 3880,108,3934,132 3759,84,3815,108 3815,84,3934,108 3759,60,3833,84 3833,60,3934,84 3759,36,\
+3851,60 3851,36,3934,60", width="2.42", height="1.67"];
+	"Grenade launcher" [label="{Grenade launcher|{Caliber(mm)|String}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="4900,364", rects="4832,364,4969,388 4832,340,4919,364 4919,340,4969,364", width="1.89", height="0.67"];
+	"takehome2-part(iii)_Class74" [label="{HAL LUH|{Version =|{LCH}}|{Type =|{Utility/Observation helicopter}}|{Origin =|{India}}|{Name =|{HAL LUH}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="7335,364", rects="7216,400,7455,424 7216,376,7348,400 7348,376,7455,400 7216,352,7272,376 7272,352,7455,376 7216,328,7344,352 7344,328,7455,352 72\
+16,304,7328,328 7328,304,7455,328", width="3.31", height="1.67"];
+	Helicopter [label="{Helicopter|{Origin|String}|{Version|String}|{Type|String}|{extra ordered|Integer}|{Number available|Integer}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="8087,620", rects="8001,668,8173,692 8001,644,8088,668 8088,644,8173,668 8001,620,8091,644 8091,620,8173,644 8001,596,8084,620 8084,596,8173,620 80\
+01,572,8104,596 8104,572,8173,596 8001,548,8117,572 8117,548,8173,572", width="2.39", height="2.00"];
+	"takehome2-part(iii)_Class72" [label="{HAL Chetan|{Version =|{Chetan}}|{Type =|{Utility helicopter}}|{Number available =|{4}}|{Origin =|{India}}|{Name =|{HAL Chetan}}\
+}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="7555,364", rects="7472,412,7639,436 7472,388,7562,412 7562,388,7639,412 7472,364,7528,388 7528,364,7639,388 7472,340,7607,364 7607,340,7639,364 74\
+72,316,7564,340 7564,316,7639,340 7472,292,7542,316 7542,292,7639,316", width="2.31", height="2.00"];
+	"takehome2-part(iii)_Class73" [label="{HAL light combat helicopter|{Version =|{LCH}}|{Type =|{Attack helicopter}}|{extra ordered =|{114}}|{Origin =|{India}}|{Name =|{\
+HAL light combat helicopter}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="7775,364", rects="7656,412,7894,436 7656,388,7787,412 7787,388,7894,412 7656,364,7746,388 7746,364,7894,388 7656,340,7807,364 7807,340,7894,364 76\
+56,316,7784,340 7784,316,7894,340 7656,292,7718,316 7718,292,7894,316", width="3.31", height="2.00"];
+	"takehome2-part(iii)_Class35" [label="{Pistol Auto 9mm 1A|{Caliber(mm) =|{9*19}}|{Type =|{Semi-automatic Pistol}}|{Origin =|{India|Canada}}|{Name =|{Pistol Auto 9mm 1\
+A}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4276,96", rects="4179,144,4373,168 4179,120,4303,144 4303,120,4373,144 4179,96,4235,120 4235,96,4373,120 4179,48,4278,96 4278,72,4373,96 4278,48,\
+4373,72 4179,24,4241,48 4241,24,4373,48", width="2.69", height="2.00"];
+	"Small Arms" [label="{Small Arms|{Caliber(mm)|String}|{NATO|Boolean}|{MINSAS|Boolean}|{BMG|Boolean}|{SPC|Boolean}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="6011,364", rects="5943,412,6080,436 5943,388,6030,412 6030,388,6080,412 5943,364,6007,388 6007,364,6080,388 5943,340,6015,364 6015,340,6080,364 59\
+43,316,6004,340 6004,316,6080,340 5943,292,6000,316 6000,292,6080,316", width="1.89", height="2.00"];
+	"takehome2-part(iii)_Class70" [label="{HAL Lancer|{Version =|{Lancer}}|{Type =|{Utility helicopter}}|{extra ordered =|{18}}|{Number available =|{12}}|{Origin =|{India\
+}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="7995,364", rects="7912,424,8079,448 7912,400,8002,424 8002,400,8079,424 7912,376,7968,400 7968,376,8079,400 7912,352,8031,376 8031,352,8079,376 79\
+12,328,8043,352 8043,328,8079,352 7912,304,8004,328 8004,304,8079,328 7912,280,8079,304", width="2.31", height="2.33"];
+	"Machinery and weapons" [label="{Machinery and weapons|{Origin|String*}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="6298,780", rects="6222,780,6375,804 6222,756,6296,780 6296,756,6375,780", width="2.11", height="0.67"];
+	"Indian Army" [label="{Indian Army|{Name|String}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="4210,880", rects="4160,880,4261,904 4160,856,4211,880 4211,856,4261,880", width="1.39", height="0.67"];
+	"takehome2-part(iii)_Class34" [label="{Glock 17|{Caliber(mm) =|{9*19}}|{Type =|{Semi-automatic Pistol}}|{Used by =|{National Security Guards|Para Commandos}}|{Origin \
+=|{Austria}}|{Name =|{Glock 17}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4507,96", rects="4391,156,4624,180 4391,132,4534,156 4534,132,4624,156 4391,108,4466,132 4466,108,4624,132 4391,60,4466,108 4466,84,4624,108 4466\
+,60,4624,84 4391,36,4510,60 4510,36,4624,60 4391,12,4504,36 4504,12,4624,36", width="3.22", height="2.33"];
+	"takehome2-part(iii)_Class71" [label="{HAL Chetak|{Version =|{Chetak}}|{Type =|{Utility helicopter}}|{Number available =|{4}}|{Origin =|{India}}|{Name =|{HAL Chetak}}\
+}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8179,364", rects="8096,412,8263,436 8096,388,8186,412 8186,388,8263,412 8096,364,8152,388 8152,364,8263,388 8096,340,8231,364 8231,340,8263,364 80\
+96,316,8188,340 8188,316,8263,340 8096,292,8166,316 8166,292,8263,316", width="2.31", height="2.00"];
+	"takehome2-part(iii)_Class20021" [label="{Lieutenant|{Five-pointed Star =|{2}}|{Priority =|{9}}|{retirement Age =|{57}}|{Salary =|{39000}}|{Name =|{Lieutenant}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="1462,364", rects="1388,412,1537,436 1388,388,1513,412 1513,388,1537,412 1388,364,1486,388 1486,364,1537,388 1388,340,1502,364 1502,340,1537,364 13\
+88,316,1468,340 1468,316,1537,340 1388,292,1455,316 1455,292,1537,316", width="2.06", height="2.00"];
+	Officers [label="{Officers|{Saber|Boolean}|{Five-pointed Star|Integer}|{Baton|Boolean}|{National Emblem|Boolean}|{Priority|Integer}|{...}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="2339,620", rects="2251,680,2428,704 2251,656,2332,680 2332,656,2428,680 2251,632,2368,656 2368,632,2428,656 2251,608,2333,632 2333,608,2428,632 22\
+51,584,2365,608 2365,584,2428,608 2251,560,2341,584 2341,560,2428,584 2251,536,2428,560", width="2.44", height="2.33"];
+	"takehome2-part(iii)_Class32" [label="{Micro-Uzi|{Caliber(mm) =|{9*19}}|{Type =|{Sub-Machine gun}}|{Used by =|{Para Commandos}}|{Origin =|{Israel}}|{Name =|{Micro-Uzi\
+}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4736,96", rects="4641,144,4831,168 4641,120,4763,144 4763,120,4831,144 4641,96,4706,120 4706,96,4831,120 4641,72,4716,96 4716,72,4831,96 4641,48,\
+4744,72 4744,48,4831,72 4641,24,4729,48 4729,24,4831,48", width="2.64", height="2.00"];
+	"takehome2-part(iii)_Class10007" [label="{K9 VAJRA-T|{Caliber(mm) =|{155}}|{Type =|{Self-propelled Artillery}}|{Origin =|{India}}|{Name =|{K9 VAJRA-T}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="3722,364", rects="3622,400,3823,424 3622,376,3752,400 3752,376,3823,400 3622,352,3678,376 3678,352,3823,376 3622,328,3731,352 3731,328,3823,352 36\
+22,304,3706,328 3706,304,3823,328", width="2.78", height="1.67"];
+	"takehome2-part(iii)_Class30" [label="{IMI Tavor TAR-21|{Caliber(mm) =|{5.56}}|{NATO =|{true}}|{Type =|{Assault rifle}}|{Used by =|{MARCOS}}|{Origin =|{Israel}}|{...}\
+}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4924,96", rects="4849,156,5000,180 4849,132,4953,156 4953,132,5000,156 4849,108,4938,132 4938,108,5000,132 4849,84,4910,108 4910,84,5000,108 4849\
+,60,4924,84 4924,60,5000,84 4849,36,4932,60 4932,36,5000,60 4849,12,5000,36", width="2.08", height="2.33"];
+	"takehome2-part(iii)_Class10006" [label="{gun S-23|{Caliber(mm) =|{180*23}}|{Type =|{Heavy gun}}|{Origin =|{Soviet Union}}|{Name =|{gun S-23}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="3918,364", rects="3840,400,3996,424 3840,376,3938,400 3938,376,3996,400 3840,352,3907,376 3907,352,3996,376 3840,328,3905,352 3905,328,3996,352 38\
+40,304,3915,328 3915,304,3996,328", width="2.17", height="1.67"];
+	"takehome2-part(iii)_Class20020" [label="{Captain|{Five-pointed Star =|{3}}|{Priority =|{8}}|{Responsible for =|{Lieutenant}}|{retirement Age =|{57}}|{Salary =|{39100}}|\
+{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="1650,364", rects="1554,424,1746,448 1554,400,1700,424 1700,400,1746,424 1554,376,1673,400 1673,376,1746,400 1554,352,1670,376 1670,352,1746,376 15\
+54,328,1690,352 1690,328,1746,352 1554,304,1656,328 1656,304,1746,328 1554,280,1746,304", width="2.67", height="2.33"];
+	"takehome2-part(iii)_Class10005" [label="{D-30|{Caliber(mm) =|{155*30}}|{Type =|{Howitzer}}|{Origin =|{Soviet Union}}|{Name =|{D-30}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4092,364", rects="4014,400,4170,424 4014,376,4112,400 4112,376,4170,400 4014,352,4085,376 4085,352,4170,376 4014,328,4079,352 4079,328,4170,352 40\
+14,304,4100,328 4100,304,4170,328", width="2.17", height="1.67"];
+	"takehome2-part(iii)_Class10004" [label="{M-46|{Caliber(mm) =|{155*46}}|{Type =|{Howitzer}}|{Origin =|{Soviet Union|Israel}}|{Name =|{M-46}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4266,364", rects="4188,412,4344,436 4188,388,4286,412 4286,388,4344,412 4188,364,4259,388 4259,364,4344,388 4188,316,4253,364 4253,340,4344,364 42\
+53,316,4344,340 4188,292,4272,316 4272,292,4344,316", width="2.17", height="2.00"];
+	"takehome2-part(iii)_Class10003" [label="{Haubits FH77/B|{Caliber(mm) =|{155}}|{Type =|{Howitzer}}|{Origin =|{Sweden}}|{Name =|{Haubits FH77/B}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4447,364", rects="4362,400,4532,424 4362,376,4477,400 4477,376,4532,400 4362,352,4440,376 4440,352,4532,376 4362,328,4448,352 4448,328,4532,352 43\
+62,304,4424,328 4424,304,4532,328", width="2.36", height="1.67"];
+	"takehome2-part(iii)_Class10002" [label="{Dhanush Howitzer|{Caliber(mm) =|{155*45}}|{Type =|{Howizter}}|{Origin =|{India}}|{Name =|{Dhanush Howitzer}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4641,364", rects="4550,400,4733,424 4550,376,4661,400 4661,376,4733,400 4550,352,4635,376 4635,352,4733,376 4550,328,4650,352 4650,328,4733,352 45\
+50,304,4612,328 4612,304,4733,328", width="2.53", height="1.67"];
+	"takehome2-part(iii)_Class27" [label="{Heckler & Koch PSG1|{Caliber(mm) =|{7.62}}|{NATO =|{true}}|{Type =|{Sniper rifle}}|{Used by =|{MARCOS}}|{Origin =|{Germany}}|{.\
+..}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="5092,96", rects="5017,156,5168,180 5017,132,5121,156 5121,132,5168,156 5017,108,5106,132 5106,108,5168,132 5017,84,5081,108 5081,84,5168,108 5017\
+,60,5092,84 5092,60,5168,84 5017,36,5090,60 5090,36,5168,60 5017,12,5168,36", width="2.08", height="2.33"];
+	"takehome2-part(iii)_Class66" [label="{HALl Rudra|{Version =|{ALH-WSI}}|{Type =|{Attack Helicopter}}|{extra ordered =|{40}}|{Number available =|{20}}|{Origin =|{India\
+}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8366,364", rects="8280,424,8452,448 8280,400,8363,424 8363,400,8452,424 8280,376,8336,400 8336,376,8452,400 8280,352,8401,376 8401,352,8452,376 82\
+80,328,8414,352 8414,328,8452,352 8280,304,8375,328 8375,304,8452,328 8280,280,8452,304", width="2.39", height="2.33"];
+	"takehome2-part(iii)_Class24" [label="{FN F2000|{Caliber(mm) =|{5.56*45}}|{NATO =|{true}}|{Type =|{Bull Pup Assault rifle}}|{Used by =|{Special protection group}}|{Or\
+igin =|{Belgium}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="5298,96", rects="5185,156,5412,180 5185,132,5316,156 5316,132,5412,156 5185,108,5312,132 5312,108,5412,132 5185,84,5258,108 5258,84,5412,108 5185\
+,60,5260,84 5260,60,5412,84 5185,36,5298,60 5298,36,5412,60 5185,12,5412,36", width="3.14", height="2.33"];
+	"takehome2-part(iii)_Class23" [label="{Mauser SP66|{Caliber(mm) =|{7.62}}|{NATO =|{true}}|{Type =|{Sniper rifle}}|{Used by =|{Snipers}}|{Origin =|{Germany}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="5498,96", rects="5429,156,5568,180 5429,132,5527,156 5527,132,5568,156 5429,108,5512,132 5512,108,5568,132 5429,84,5487,108 5487,84,5568,108 5429\
+,60,5507,84 5507,60,5568,84 5429,36,5496,60 5496,36,5568,60 5429,12,5568,36", width="1.92", height="2.33"];
+	"takehome2-part(iii)_Class60" [label="{OFB E1|{Caliber(mm) =|{81}}|{Origin =|{India}}|{Name =|{OFB E1}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8209,96", rects="8145,120,8274,144 8145,96,8243,120 8243,96,8274,120 8145,72,8218,96 8218,72,8274,96 8145,48,8209,72 8209,48,8274,72", width="1.78", height="1.33"];
+	Mortar [label="{Mortar|{Caliber(mm)|String}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="7130,364", rects="7062,364,7199,388 7062,340,7149,364 7149,340,7199,364", width="1.89", height="0.67"];
+	"takehome2-part(iii)_Class26" [label="{Heckler & Koch MP5|{Caliber(mm) =|{7.62*51}}|{NATO =|{true}}|{Type =|{Machine pistol rifle}}|{Used by =|{MARCOS}}|{Origin =|{Ge\
+rmany}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="5676,96", rects="5585,156,5767,180 5585,132,5694,156 5694,132,5767,156 5585,108,5689,132 5689,108,5767,132 5585,84,5641,108 5641,84,5767,108 5585\
+,60,5675,84 5675,60,5767,84 5585,36,5673,60 5673,36,5767,60 5585,12,5767,36", width="2.53", height="2.33"];
+	"takehome2-part(iii)_Class61" [label="{L16|{Caliber(mm) =|{81}}|{Origin =|{UK|Canada}}|{Name =|{L16}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8355,96", rects="8291,132,8420,156 8291,108,8389,132 8389,108,8420,132 8291,60,8358,108 8358,84,8420,108 8358,60,8420,84 8291,36,8366,60 8366,36,\
+8420,60", width="1.78", height="1.67"];
+	"takehome2-part(iii)_Class25" [label="{FN P90|{Caliber(mm) =|{5.7*28}}|{NATO =|{true}}|{Type =|{Bull pup rifle}}|{Used by =|{Special protection group}}|{Origin =|{Bel\
+gium}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="5898,96", rects="5785,156,6012,180 5785,132,5920,156 5920,132,6012,156 5785,108,5912,132 5912,108,6012,132 5785,84,5881,108 5881,84,6012,108 5785\
+,60,5860,84 5860,60,6012,84 5785,36,5898,60 5898,36,6012,60 5785,12,6012,36", width="3.14", height="2.33"];
+	"takehome2-part(iii)_Class62" [label="{OFB E1|{Caliber(mm) =|{120}}|{Origin =|{India}}|{Name =|{OFB E1}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8505,96", rects="8437,120,8573,144 8437,96,8535,120 8535,96,8573,120 8437,72,8514,96 8514,72,8573,96 8437,48,8505,72 8505,48,8573,72", width="1.89", height="1.33"];
+	"takehome2-part(iii)_Class10018" [label="{Nirbhay|{Type =|{cruise}}|{range(km) =|{1500}}|{Origin =|{India}}|{Name =|{Nirbhay}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="9087,364", rects="9022,400,9152,424 9022,376,9090,400 9090,376,9152,400 9022,352,9108,376 9108,352,9152,376 9022,328,9096,352 9096,328,9152,352 90\
+22,304,9086,328 9086,304,9152,328", width="1.81", height="1.67"];
+	"Ballistic and cruise missles" [label="{Ballistic and cruise missles|{Type|String}|{range(km)|Integer}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="10115,620", rects="10032,632,10199,656 10032,608,10112,632 10112,608,10199,632 10032,584,10125,608 10125,584,10199,608", width="2.31", height="1.00"];
+	"takehome2-part(iii)_Class20" [label="{INSAS LMG|{Caliber(mm) =|{5.56}}|{NATO =|{true}}|{Type =|{Light Machine Gun}}|{Used by =|{Para Commandos}}|{Origin =|{India}}|{\
+...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="6124,96", rects="6029,156,6219,180 6029,132,6152,156 6152,132,6219,156 6029,108,6137,132 6137,108,6219,132 6029,84,6089,108 6089,84,6219,108 6029\
+,60,6104,84 6104,60,6219,84 6029,36,6133,60 6133,36,6219,60 6029,12,6219,36", width="2.64", height="2.33"];
+	"takehome2-part(iii)_Class10017" [label="{Brahmos|{Type =|{stealth-cruise}}|{range(km) =|{300}}|{Origin =|{India|Russia}}|{Name =|{Brahmos}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="9243,364", rects="9170,412,9316,436 9170,388,9226,412 9226,388,9316,412 9170,364,9267,388 9267,364,9316,388 9170,316,9247,364 9247,340,9316,364 92\
+47,316,9316,340 9170,292,9240,316 9240,292,9316,316", width="2.03", height="2.00"];
+	"takehome2-part(iii)_Class22" [label="{IMI Galil sniper7.62  rifle|{Caliber(mm) =|{7.62}}|{Type =|{Sniper Rifle}}|{Used by =|{Snipers}}|{Origin =|{Israel}}|{Name =|{I\
+MI Galil sniper7.62  rifle}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="6346,96", rects="6237,144,6456,168 6237,120,6375,144 6375,120,6456,144 6237,96,6333,120 6333,96,6456,120 6237,72,6355,96 6355,72,6456,96 6237,48,\
+6354,72 6354,48,6456,72 6237,24,6299,48 6299,24,6456,48", width="3.03", height="2.00"];
+	"takehome2-part(iii)_Class10019" [label="{Prahaar|{Type =|{tacital-ballistic}}|{range(km) =|{150}}|{Origin =|{India}}|{Name =|{Prahaar}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="9411,364", rects="9334,400,9489,424 9334,376,9390,400 9390,376,9489,400 9334,352,9435,376 9435,352,9489,376 9334,328,9420,352 9420,328,9489,352 93\
+34,304,9412,328 9412,304,9489,328", width="2.14", height="1.67"];
+	"takehome2-part(iii)_Class67" [label="{HAL Dhruv|{Type =|{Utility helicopter}}|{extra ordered =|{151}}|{Number available =|{73}}|{Origin =|{India}}|{Name =|{HAL Dhruv\
+}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8553,364", rects="8470,412,8637,436 8470,388,8526,412 8526,388,8637,412 8470,364,8585,388 8585,364,8637,388 8470,340,8601,364 8601,340,8637,364 84\
+70,316,8562,340 8562,316,8637,340 8470,292,8543,316 8543,292,8637,316", width="2.31", height="2.00"];
+	"takehome2-part(iii)_Class68" [label="{HAL Cheetah|{Version =|{Cheetah}}|{Type =|{Utility helicopter}}|{extra ordered =|{18}}|{Number available =|{23}}|{Origin =|{Ind\
+ia}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8737,364", rects="8654,424,8821,448 8654,400,8741,424 8741,400,8821,424 8654,376,8710,400 8710,376,8821,400 8654,352,8773,376 8773,352,8821,376 86\
+54,328,8785,352 8785,328,8821,352 8654,304,8746,328 8746,304,8821,328 8654,280,8821,304", width="2.31", height="2.33"];
+	"takehome2-part(iii)_Class69" [label="{HAL Cheetal|{Version =|{Cheetal}}|{Type =|{Utility helicopter}}|{extra ordered =|{18}}|{Number available =|{4}}|{Origin =|{Indi\
+a}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8921,364", rects="8838,424,9005,448 8838,400,8927,424 8927,400,9005,424 8838,376,8894,400 8894,376,9005,400 8838,352,8957,376 8957,352,9005,376 88\
+38,328,8973,352 8973,328,9005,352 8838,304,8930,328 8930,304,9005,328 8838,280,9005,304", width="2.31", height="2.33"];
+	"takehome2-part(iii)_Class20004" [label="{Para Commandos|{Equipment used =|{Glock 17|Micro-Uzi|INSAS LMG|...}}|{Motto =|{Men apart,every man an emperor}}|{Name =|{Para C\
+ommandos}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="132,364", rects="0,424,264,448 0,328,145,424 145,400,264,424 145,376,264,400 145,352,264,376 145,328,264,352 0,304,63,328 63,304,264,328 0,280,10\
+5,304 105,280,264,304", width="3.67", height="2.33"];
+	"takehome2-part(iii)_Class20003" [label="{National Security Guards|{Equipment used =|{Glock 17|MG 2A1|MG 5A|...}}|{Motto =|{Omnipresent omnipotent defense}}|{Name =|{Nat\
+ional Security Guards}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="413,364", rects="282,424,544,448 282,328,438,424 438,400,544,424 438,376,544,400 438,352,544,376 438,328,544,352 282,304,345,328 345,304,544,328 \
+282,280,365,304 365,280,544,304", width="3.64", height="2.33"];
+	"takehome2-part(iii)_Class20008" [label="{MARCOS|{Equipment used =|{IMI Tavor TAR-21|Heckler & Koch MP5|Heckler & Koch PSG1|...}}|{Motto =|{The few,the fearless}}|{Name \
+=|{MARCOS}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="693,364", rects="562,424,825,448 562,328,680,424 680,400,825,424 680,376,825,400 680,352,825,376 680,328,825,352 562,304,661,328 661,304,825,328 \
+562,280,686,304 686,280,825,304", width="3.64", height="2.33"];
+	"takehome2-part(iii)_Class10022" [label="{prithvi-ii|{Type =|{short-range ballistic}}|{range(km) =|{350}}|{Origin =|{India}}|{Name =|{prithvi-ii}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="9597,364", rects="9506,400,9688,424 9506,376,9562,400 9562,376,9688,400 9506,352,9621,376 9621,352,9688,376 9506,328,9606,352 9606,328,9688,352 95\
+06,304,9595,328 9595,304,9688,328", width="2.53", height="1.67"];
+	"takehome2-part(iii)_Class10023" [label="{Shaurya|{Type =|{medium-range ballistic}}|{range(km) =|{1900}}|{Origin =|{India}}|{Name =|{Shaurya}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="9806,364", rects="9706,400,9906,424 9706,376,9762,400 9762,376,9906,400 9706,352,9827,376 9827,352,9906,376 9706,328,9815,352 9815,328,9906,352 97\
+06,304,9806,328 9806,304,9906,328", width="2.78", height="1.67"];
+	"takehome2-part(iii)_Class10020" [label="{prithvi-i|{Type =|{short-range ballistic}}|{range(km) =|{150}}|{Origin =|{India}}|{Name =|{prithvi-i}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="10015,364", rects="9924,400,10106,424 9924,376,9980,400 9980,376,10106,400 9924,352,10039,376 10039,352,10106,376 9924,328,10024,352 10024,328,1010\
+6,352 9924,304,10015,328 10015,304,10106,328", width="2.53", height="1.67"];
+	"takehome2-part(iii)_Class11" [label="{PKM|{Caliber(mm) =|{7.62*54}}|{Type =|{General purpose machine gun}}|{Used by =|{Para Commandos}}|{Origin =|{Soviet Union}}|{Na\
+me =|{PKM}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="6591,96", rects="6473,144,6710,168 6473,120,6609,144 6609,120,6710,144 6473,96,6529,120 6529,96,6710,120 6473,72,6571,96 6571,72,6710,96 6473,48,\
+6578,72 6578,48,6710,72 6473,24,6598,48 6598,24,6710,48", width="3.28", height="2.00"];
+	"takehome2-part(iii)_Class10021" [label="{prithvi-iii|{Type =|{short-range ballistic}}|{range(km) =|{600}}|{Origin =|{India}}|{Name =|{prithvi-iii}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="10215,364", rects="10124,400,10306,424 10124,376,10180,400 10180,376,10306,400 10124,352,10239,376 10239,352,10306,376 10124,328,10224,352 10224,32\
+8,10306,352 10124,304,10211,328 10211,304,10306,328", width="2.53", height="1.67"];
+	"takehome2-part(iii)_Class12" [label="{Dragunov SVD59|{Caliber(mm) =|{7.62*54}}|{Type =|{Sniper rifle}}|{Used by =|{Snipers}}|{Origin =|{Soviet Union|India}}|{Name =|\
+{Dragunov SVD59}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="6817,96", rects="6727,156,6907,180 6727,132,6835,156 6835,132,6907,156 6727,108,6806,132 6806,108,6907,132 6727,84,6825,108 6825,84,6907,108 6727\
+,36,6804,84 6804,60,6907,84 6804,36,6907,60 6727,12,6789,36 6789,12,6907,36", width="2.50", height="2.33"];
+	"takehome2-part(iii)_Class4" [label="{T-55|{caliber =|{100.0}}|{Speed(km/hr) =|{48.0}}|{Weight(tonnes) =|{36.0}}|{Width(m) =|{3.37}}|{Armament =|{100mm rifle gun}}|{\
+...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="11673,364", rects="11576,424,11771,448 11576,400,11682,424 11682,400,11771,424 11576,376,11705,400 11705,376,11771,400 11576,352,11709,376 11709,35\
+2,11771,376 11576,328,11694,352 11694,328,11771,352 11576,304,11663,328 11663,304,11771,328 11576,280,11771,304", width="2.69", height="2.33"];
+	Tanks [label="{Tanks|{caliber|Float}|{Speed(km/hr)|Float}|{Weight(tonnes)|Float}|{Width(m)|Float}|{Armament|String}|{...}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="12020,620", rects="11946,680,12094,704 11946,656,12024,680 12024,656,12094,680 11946,632,12043,656 12043,632,12094,656 11946,608,12048,632 12048,60\
+8,12094,632 11946,584,12032,608 12032,584,12094,608 11946,560,12033,584 12033,560,12094,584 11946,536,12094,560", width="2.06", height="2.33"];
+	"takehome2-part(iii)_Class3" [label="{T-72 Ajeya|{caliber =|{125.0}}|{Speed(km/hr) =|{60.0}}|{Weight(tonnes) =|{43.0}}|{Width(m) =|{3.16}}|{Armament =|{125mm smoothb\
+ore gun}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="11907,364", rects="11788,424,12026,448 11788,400,11916,424 11916,400,12026,424 11788,376,11938,400 11938,376,12026,400 11788,352,11943,376 11943,35\
+2,12026,376 11788,328,11927,352 11927,328,12026,352 11788,304,11875,328 11875,304,12026,328 11788,280,12026,304", width="3.31", height="2.33"];
+	"takehome2-part(iii)_Class13" [label="{AK-103|{Caliber(mm) =|{7.62*39}}|{Type =|{Assault rifle}}|{Used by =|{MARCOS|National Security Guards}}|{Origin =|{Russia}}|{Na\
+me =|{AK-103}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="7041,96", rects="6925,156,7158,180 6925,132,7059,156 7059,132,7158,156 6925,108,7027,132 7027,108,7158,132 6925,60,7000,108 7000,84,7158,108 7000\
+,60,7158,84 6925,36,7045,60 7045,36,7158,60 6925,12,7041,36 7041,12,7158,36", width="3.22", height="2.33"];
+	"takehome2-part(iii)_Class5" [label="{Vijayanta|{caliber =|{105.0}}|{Speed(km/hr) =|{50.0}}|{Weight(tonnes) =|{43.0}}|{Width(m) =|{3.16}}|{Armament =|{105mm L7A2}}|{\
+...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="12134,364", rects="12044,424,12225,448 12044,400,12143,424 12143,400,12225,424 12044,376,12166,400 12166,376,12225,400 12044,352,12170,376 12170,35\
+2,12225,376 12044,328,12155,352 12155,328,12225,352 12044,304,12131,328 12131,304,12225,328 12044,280,12225,304", width="2.50", height="2.33"];
+	"takehome2-part(iii)_Class20009" [label="{Special protection group|{Equipment used =|{FN P90|FN F2000}}|{Motto =|{Bravery,Dedication,Security}}|{Name =|{Special protecti\
+on group}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="960,364", rects="842,400,1079,424 842,352,982,400 982,376,1079,400 982,352,1079,376 842,328,905,352 905,328,1079,352 842,304,915,328 915,304,1079\
+,328", width="3.28", height="1.67"];
+	"takehome2-part(iii)_Class17" [label="{MG 2A1|{Caliber(mm) =|{7.62}}|{NATO =|{true}}|{Type =|{General purpose machine gun}}|{Used by =|{National Security Guards}}|{Or\
+igin =|{Belgium|India}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="7293,96", rects="7175,168,7412,192 7175,144,7322,168 7322,144,7412,168 7175,120,7307,144 7307,120,7412,144 7175,96,7231,120 7231,96,7412,120 7175\
+,72,7252,96 7252,72,7412,96 7175,24,7293,72 7293,48,7412,72 7293,24,7412,48 7175,0,7412,24", width="3.28", height="2.67"];
+	"takehome2-part(iii)_Class18" [label="{MG 6A|{Caliber(mm) =|{7.62}}|{NATO =|{true}}|{Type =|{General purpose machine gun}}|{Used by =|{National Security Guards}}|{Ori\
+gin =|{Belgium|India}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="7547,96", rects="7429,168,7666,192 7429,144,7576,168 7576,144,7666,168 7429,120,7561,144 7561,120,7666,144 7429,96,7485,120 7485,96,7666,120 7429\
+,72,7506,96 7506,72,7666,96 7429,24,7547,72 7547,48,7666,72 7547,24,7666,48 7429,0,7666,24", width="3.28", height="2.67"];
+	"takehome2-part(iii)_Class19" [label="{MG 5A|{Caliber(mm) =|{7.62}}|{NATO =|{true}}|{Type =|{General purpose machine gun}}|{Used by =|{National Security Guards}}|{Ori\
+gin =|{Belgium|India}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="7801,96", rects="7683,168,7920,192 7683,144,7830,168 7830,144,7920,168 7683,120,7815,144 7815,120,7920,144 7683,96,7739,120 7739,96,7920,120 7683\
+,72,7760,96 7760,72,7920,96 7683,24,7801,72 7801,48,7920,72 7801,24,7920,48 7683,0,7920,24", width="3.28", height="2.67"];
+	"takehome2-part(iii)_Class9" [label="{NSV|{Caliber(mm) =|{12.7*108}}|{Type =|{Heavy machine gun}}|{Used by =|{Para Commandos}}|{Origin =|{Soviet Union}}|{Name =|{NSV\
+}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8032,96", rects="7937,144,8127,168 7937,120,8047,144 8047,120,8127,144 7937,96,7996,120 7996,96,8127,120 7937,72,8012,96 8012,72,8127,96 7937,48,\
+8019,72 8019,48,8127,72 7937,24,8040,48 8040,24,8127,48", width="2.64", height="2.00"];
+	"takehome2-part(iii)_Class59" [label="{OFB E1|{Caliber(mm) =|{51}}|{Origin =|{India}}|{Name =|{OFB E1}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="8655,96", rects="8591,120,8720,144 8591,96,8689,120 8689,96,8720,120 8591,72,8664,96 8664,72,8720,96 8591,48,8655,72 8655,48,8720,72", width="1.78", height="1.33"];
+	"takehome2-part(iii)_Class1" [label="{Arjun Mbt|{caliber =|{120.0}}|{Speed(km/hr) =|{67.0}}|{Weight(tonnes) =|{58.5}}|{Width(m) =|{3.864}}|{Armament =|{120 mm rifle \
+gun}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="12341,364", rects="12242,424,12440,448 12242,400,12350,424 12350,400,12440,424 12242,376,12372,400 12372,376,12440,400 12242,352,12377,376 12377,35\
+2,12440,376 12242,328,12358,352 12358,328,12440,352 12242,304,12329,328 12329,304,12440,328 12242,280,12440,304", width="2.75", height="2.33"];
+	"takehome2-part(iii)_Class2" [label="{T-90 Bhishma|{caliber =|{125.0}}|{Speed(km/hr) =|{60.0}}|{Weight(tonnes) =|{46.0}}|{Width(m) =|{3.78}}|{Armament =|{125mm smoot\
+h boregun}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="12577,364", rects="12458,424,12696,448 12458,400,12586,424 12586,400,12696,424 12458,376,12608,400 12608,376,12696,400 12458,352,12613,376 12613,35\
+2,12696,376 12458,328,12597,352 12597,328,12696,352 12458,304,12545,328 12545,304,12696,328 12458,280,12696,304", width="3.31", height="2.33"];
+	"takehome2-part(iii)_Class10027" [label="{Agni-iv|{Type =|{intermediate-ballistic}}|{range(km) =|{6000}}|{Origin =|{India}}|{Name =|{Agni-iv}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="10418,364", rects="10324,400,10513,424 10324,376,10380,400 10380,376,10513,400 10324,352,10439,376 10439,352,10513,376 10324,328,10427,352 10427,32\
+8,10513,352 10324,304,10420,328 10420,304,10513,328", width="2.61", height="1.67"];
+	"takehome2-part(iii)_Class10026" [label="{Agni-v|{Type =|{intercontinental-ballistic}}|{range(km) =|{8000}}|{Origin =|{India}}|{Name =|{Agni-v}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="10633,364", rects="10530,400,10736,424 10530,376,10586,400 10586,376,10736,400 10530,352,10654,376 10654,352,10736,376 10530,328,10642,352 10642,32\
+8,10736,352 10530,304,10636,328 10636,304,10736,328", width="2.86", height="1.67"];
+	"takehome2-part(iii)_Class10025" [label="{Agni-i|{Type =|{Medium-ballistic}}|{range(km) =|{1250}}|{Origin =|{India}}|{Name =|{Agni-i}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="10838,364", rects="10754,400,10922,424 10754,376,10810,400 10810,376,10922,400 10754,352,10859,376 10859,352,10922,376 10754,328,10847,352 10847,32\
+8,10922,352 10754,304,10842,328 10842,304,10922,328", width="2.33", height="1.67"];
+	"takehome2-part(iii)_Class54" [label="{Multi Mode Grenade Shivalik|{Type =|{Hand grenade}}|{Origin =|{India}}|{Name =|{Multi Mode Grenade Shivalik}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="3451,96", rects="3329,120,3574,144 3329,96,3432,120 3432,96,3574,120 3329,72,3460,96 3460,72,3574,96 3329,48,3391,72 3391,48,3574,72", width="3.39", height="1.33"];
+	"takehome2-part(iii)_Class10029" [label="{Agni-ii|{Type =|{intermediate-ballistic}}|{range(km) =|{3500}}|{Origin =|{India}}|{Name =|{Agni-ii}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="11034,364", rects="10940,400,11129,424 10940,376,10996,400 10996,376,11129,400 10940,352,11055,376 11055,352,11129,376 10940,328,11043,352 11043,32\
+8,11129,352 10940,304,11037,328 11037,304,11129,328", width="2.61", height="1.67"];
+	"takehome2-part(iii)_Class10028" [label="{Agni-iii|{Type =|{intermediate-ballistic}}|{range(km) =|{5000}}|{Origin =|{India}}|{Name =|{Agni-iii}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="11240,364", rects="11146,400,11335,424 11146,376,11202,400 11202,376,11335,400 11146,352,11261,376 11261,352,11335,376 11146,328,11249,352 11249,32\
+8,11335,352 11146,304,11241,328 11241,304,11335,328", width="2.61", height="1.67"];
+	"takehome2-part(iii)_Class52" [label="{Grenade|{Type =|{Hand grenade}}|{Origin =|{India}}|{Name =|{Grenade}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="3666,96", rects="3591,120,3742,144 3591,96,3647,120 3647,96,3742,120 3591,72,3675,96 3675,72,3742,96 3591,48,3665,72 3665,48,3742,72", width="2.08", height="1.33"];
+	"takehome2-part(iii)_Class20013" [label="{General|{Saber =|{true}}|{Five-pointed Star =|{1}}|{Baton =|{true}}|{National Emblem =|{true}}|{Priority =|{1}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="1846,364", rects="1764,424,1929,448 1764,400,1857,424 1857,400,1929,424 1764,376,1897,400 1897,376,1929,400 1764,352,1858,376 1858,352,1929,376 17\
+64,328,1890,352 1890,328,1929,352 1764,304,1870,328 1870,304,1929,328 1764,280,1929,304", width="2.28", height="2.33"];
+	"takehome2-part(iii)_Class20012" [label="{Field Marshal|{Saber =|{true}}|{Five-pointed Star =|{5}}|{Baton =|{true}}|{National Emblem =|{true}}|{Lotus bottom wreath =|{tr\
+ue}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="2037,364", rects="1946,424,2129,448 1946,400,2048,424 2048,400,2129,424 1946,376,2088,400 2088,376,2129,400 1946,352,2049,376 2049,352,2129,376 19\
+46,328,2081,352 2081,328,2129,352 1946,304,2090,328 2090,304,2129,328 1946,280,2129,304", width="2.53", height="2.33"];
+	"takehome2-part(iii)_Class20015" [label="{Major general|{Saber =|{true}}|{Five-pointed Star =|{1}}|{Baton =|{true}}|{Priority =|{3}}|{Responsible for =|{Brigadier|Captai\
+n|Colonel|...}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="2238,364", rects="2146,460,2331,484 2146,436,2249,460 2249,436,2331,460 2146,412,2289,436 2289,412,2331,436 2146,388,2250,412 2250,388,2331,412 21\
+46,364,2262,388 2262,364,2331,388 2146,268,2262,364 2262,340,2331,364 2262,316,2331,340 2262,292,2331,316 2262,268,2331,292 2146\
+,244,2331,268", width="2.56", height="3.33"];
+	"takehome2-part(iii)_Class20014" [label="{Lieutenant general|{Saber =|{true}}|{Baton =|{true}}|{National Emblem =|{true}}|{Priority =|{2}}|{Responsible for =|{Brigadier|\
+Captain|Colonel|...}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="2440,364", rects="2348,460,2533,484 2348,436,2451,460 2451,436,2533,460 2348,412,2452,436 2452,412,2533,436 2348,388,2484,412 2484,388,2533,412 23\
+48,364,2464,388 2464,364,2533,388 2348,268,2464,364 2464,340,2533,364 2464,316,2533,340 2464,292,2533,316 2464,268,2533,292 2348\
+,244,2533,268", width="2.56", height="3.33"];
+	"takehome2-part(iii)_Class10030" [label="{Agni-vi|{Type =|{intercontinental-ballistic}}|{range(km) =|{10000}}|{Origin =|{India}}|{Name =|{Agni-vi}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="11455,364", rects="11352,400,11558,424 11352,376,11408,400 11408,376,11558,400 11352,352,11472,376 11472,352,11558,376 11352,328,11464,352 11464,32\
+8,11558,352 11352,304,11456,328 11456,304,11558,328", width="2.86", height="1.67"];
+	"takehome2-part(iii)_Class20017" [label="{Colonel|{Five-pointed Star =|{2}}|{National Emblem =|{true}}|{Priority =|{5}}|{Responsible for =|{Captain|Lieutenant|Lieutenant\
+ Colonel|...}}|{retirement Age =|{54}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="2669,364", rects="2550,460,2789,484 2550,436,2720,460 2720,436,2789,460 2550,412,2713,436 2713,412,2789,436 2550,388,2693,412 2693,388,2789,412 25\
+50,292,2666,388 2666,364,2789,388 2666,340,2789,364 2666,316,2789,340 2666,292,2789,316 2550,268,2709,292 2709,268,2789,292 2550\
+,244,2789,268", width="3.31", height="3.33"];
+	"takehome2-part(iii)_Class20016" [label="{Brigadier|{Five-pointed Star =|{3}}|{National Emblem =|{true}}|{Priority =|{4}}|{Responsible for =|{Captain|Colonel|Lieutenant|\
+...}}|{retirement Age =|{56}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="2902,364", rects="2806,460,2998,484 2806,436,2952,460 2952,436,2998,460 2806,412,2945,436 2945,412,2998,436 2806,388,2925,412 2925,388,2998,412 28\
+06,292,2922,388 2922,364,2998,388 2922,340,2998,364 2922,316,2998,340 2922,292,2998,316 2806,268,2942,292 2942,268,2998,292 2806\
+,244,2998,268", width="2.67", height="3.33"];
+	"takehome2-part(iii)_Class20019" [label="{Major|{National Emblem =|{true}}|{Priority =|{7}}|{Responsible for =|{Captain|Lieutenant}}|{retirement Age =|{57}}|{Salary =|{6\
+7000}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="3112,364", rects="3016,436,3208,460 3016,412,3155,436 3155,412,3208,436 3016,388,3135,412 3135,388,3208,412 3016,340,3132,388 3132,364,3208,388 31\
+32,340,3208,364 3016,316,3152,340 3152,316,3208,340 3016,292,3118,316 3118,292,3208,316 3016,268,3208,292", width="2.67", height="2.67"];
+	"takehome2-part(iii)_Class20018" [label="{Lieutenant Colonel|{Five-pointed Star =|{1}}|{National Emblem =|{true}}|{Priority =|{6}}|{Responsible for =|{Captain|Lieutenant\
+|Major}}|{retirement Age =|{57}}|{...}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="3322,364", rects="3226,448,3418,472 3226,424,3372,448 3372,424,3418,448 3226,400,3365,424 3365,400,3418,424 3226,376,3345,400 3345,376,3418,400 32\
+26,304,3342,376 3342,352,3418,376 3342,328,3418,352 3342,304,3418,328 3226,280,3362,304 3362,280,3418,304 3226,256,3418,280", width="2.67", height="3.00"];
+	"takehome2-part(iii)_Class40" [label="{Multi Grenade launcher|{Caliber(mm) =|{40}}|{Type =|{Grenade Launcher}}|{Origin =|{India}}|{Name =|{Multi Grenade launcher}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="4056,96", rects="3951,132,4162,156 3951,108,4090,132 4090,108,4162,132 3951,84,4025,108 4025,84,4162,108 3951,60,4065,84 4065,60,4162,84 3951,36,\
+4013,60 4013,36,4162,60", width="2.92", height="1.67"];
+	"takehome2-part(iii)_Class20010" [label="{Snipers|{Equipment used =|{IMI Galil sniper7.62  rifle|Mauser SP66|Dragunov SVD59}}|{Name =|{Snipers}}}", shape=record, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="1233,364", rects="1096,400,1371,424 1096,328,1214,400 1214,376,1371,400 1214,352,1371,376 1214,328,1371,352 1096,304,1235,328 1235,304,1371,328", width="3.81", height="1.67"];
+	Artillery -> "takehome2-part(iii)_Class10001" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4111,609 4101,607 3965,586 3694,536 3613,484 3590,469 3570,446 3555,424", lp="3696,510"];
+	Personnel -> "Special forces" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,2303,776 2293,775 2093,754 1301,670 972,635", lp="1943,730"];
+	"Infantry Weapons" -> Grenade [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,5897,614 5887,613 5599,597 4905,549 4823,484 4793,459 4785,409 4783,382", lp="4928,510"];
+	"Grenade launcher" -> "takehome2-part(iii)_Class39" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4893,340 4889,331 4877,302 4856,263 4823,244 4793,226 4225,228 4189,226 4079,216 4042,241 3942,192 3924,183 3908,170 3894,156", lp="4409,218"];
+	Helicopter -> "takehome2-part(iii)_Class74" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8001,616 7991,615 7864,604 7634,575 7463,484 7434,469 7408,446 7386,424", lp="7546,510"];
+	Helicopter -> "takehome2-part(iii)_Class72" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8001,609 7991,607 7896,591 7751,556 7647,484 7629,471 7612,454 7599,436", lp="7703,510"];
+	Helicopter -> "takehome2-part(iii)_Class73" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8001,559 7993,553 7963,532 7931,508 7903,484 7885,469 7866,452 7849,436", lp="7951,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class35" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5943,355 5933,354 5760,330 5335,275 4977,244 4847,232 4813,237 4682,226 4549,214 4505,247 4382,192 4369,186 4356,177 4345,168", lp="4719,218"];
+	Helicopter -> "takehome2-part(iii)_Class70" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8061,548 8058,538 8047,510 8036,478 8025,448", lp="8053,510"];
+	"Indian Army" -> "Machinery and weapons" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,4261,878 4271,877 4572,863 5890,800 6222,784", lp="5388,830"];
+	"Small Arms" -> "takehome2-part(iii)_Class34" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5943,356 5933,355 5749,333 5274,277 4877,226 4768,211 4734,234 4632,192 4624,189 4616,185 4609,180", lp="4883,218"];
+	Helicopter -> "takehome2-part(iii)_Class71" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8113,548 8116,538 8128,506 8141,468 8153,436", lp="8132,510"];
+	Officers -> "takehome2-part(iii)_Class20021" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2251,613 2241,612 2054,598 1659,557 1545,484 1527,472 1511,454 1499,436", lp="1627,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class32" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5943,355 5933,354 5767,332 5369,278 5036,226 4949,212 4920,231 4840,192 4827,186 4815,177 4804,168", lp="5042,218"];
+	Artillery -> "takehome2-part(iii)_Class10007" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4111,603 4101,600 4027,580 3915,541 3831,484 3807,468 3785,445 3767,424", lp="3891,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class30" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5943,358 5933,357 5726,339 5168,281 5008,192 5002,189 4996,185 4991,180", lp="5091,218"];
+	Artillery -> "takehome2-part(iii)_Class10006" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4125,584 4117,578 4083,552 4039,519 4005,484 3988,466 3971,444 3957,424", lp="4048,510"];
+	Officers -> "takehome2-part(iii)_Class20020" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2251,606 2241,604 2096,581 1837,532 1755,484 1739,474 1725,462 1712,448", lp="1842,510"];
+	Artillery -> "takehome2-part(iii)_Class10005" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4167,584 4164,575 4150,532 4128,470 4113,424", lp="4151,510"];
+	Personnel -> Officers [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,2339,762 2339,752 2339,738 2339,721 2339,704", lp="2347,730"];
+	Artillery -> "takehome2-part(iii)_Class10004" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4191,584 4194,574 4207,536 4226,480 4241,436", lp="4225,510"];
+	Artillery -> "takehome2-part(iii)_Class10003" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4232,584 4240,578 4275,553 4319,518 4353,484 4371,466 4389,444 4405,424", lp="4339,510"];
+	Artillery -> "takehome2-part(iii)_Class10002" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4248,605 4258,603 4335,583 4454,545 4541,484 4564,468 4584,445 4601,424", lp="4513,510"];
+	"Infantry Weapons" -> "Grenade launcher" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,5967,584 5959,578 5924,552 5876,520 5828,502 5670,442 5157,388 4969,370", lp="5875,510"];
+	"Infantry Weapons" -> "Small Arms" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,6011,584 6011,574 6011,535 6011,480 6011,436", lp="6019,510"];
+	"Machinery and weapons" -> "Infantry Weapons" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,6255,756 6246,751 6199,724 6128,684 6076,656", lp="6231,730"];
+	"Small Arms" -> "takehome2-part(iii)_Class27" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5943,356 5933,355 5751,331 5306,267 5176,192 5170,189 5165,185 5159,180", lp="5262,218"];
+	Helicopter -> "takehome2-part(iii)_Class66" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8173,563 8181,557 8211,535 8244,510 8271,484 8282,473 8293,461 8303,448", lp="8252,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class24" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5943,353 5933,351 5817,330 5593,280 5420,192 5413,188 5406,184 5399,180", lp="5503,218"];
+	"Small Arms" -> "takehome2-part(iii)_Class23" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5943,348 5933,345 5841,322 5687,273 5576,192 5571,188 5566,184 5562,180", lp="5636,218"];
+	Mortar -> "takehome2-part(iii)_Class60" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,7137,340 7141,331 7152,302 7173,262 7207,244 7247,221 8001,234 8047,226 8088,217 8102,217 8136,192 8153,179 8168,161 8180,144", lp="8108,218"];
+	"Small Arms" -> "takehome2-part(iii)_Class26" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5943,317 5935,311 5888,279 5827,234 5776,192 5772,188 5767,184 5762,180", lp="5826,218"];
+	Mortar -> "takehome2-part(iii)_Class61" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,7137,340 7141,331 7152,302 7173,262 7207,244 7251,219 8067,231 8118,226 8191,217 8219,231 8282,192 8296,183 8309,170 8319,156", lp="8245,218"];
+	"Small Arms" -> "takehome2-part(iii)_Class25" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,5981,292 5977,282 5963,250 5948,213 5934,180", lp="5958,218"];
+	Mortar -> "takehome2-part(iii)_Class62" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,7137,340 7141,331 7152,302 7173,262 7207,244 7257,215 8197,232 8255,226 8332,217 8360,232 8428,192 8447,180 8463,162 8476,144", lp="8391,218"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10018" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10032,617 10022,617 9810,608 9300,578 9161,484 9140,469 9123,446 9111,424", lp="9234,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class20" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6041,292 6045,282 6059,250 6074,213 6088,180", lp="6082,218"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10017" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10032,614 10022,613 9838,598 9439,558 9325,484 9306,472 9291,454 9279,436", lp="9401,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class22" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6080,310 6088,304 6130,271 6182,230 6228,192 6238,184 6247,176 6257,168", lp="6213,218"];
+	"Machinery and weapons" -> Helicopter [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,6375,773 6385,772 6689,745 7698,655 8001,628", lp="6937,730"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10019" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10032,609 10022,608 9871,587 9582,540 9497,484 9474,469 9456,446 9442,424", lp="9582,510"];
+	Helicopter -> "takehome2-part(iii)_Class67" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8173,603 8183,601 8264,581 8378,544 8461,484 8479,471 8495,454 8508,436", lp="8429,510"];
+	"Indian Army" -> Personnel [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,4160,877 4150,876 3858,860 2604,794 2375,782", lp="3451,830"];
+	Helicopter -> "takehome2-part(iii)_Class68" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8173,606 8183,604 8321,581 8569,533 8645,484 8660,474 8673,462 8684,448", lp="8607,510"];
+	Helicopter -> "takehome2-part(iii)_Class69" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,8173,612 8183,611 8358,593 8721,549 8829,484 8844,475 8857,462 8869,448", lp="8790,510"];
+	"Special forces" -> "takehome2-part(iii)_Class20004" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,683,603 673,601 558,583 399,548 273,484 254,474 236,462 219,448", lp="351,510"];
+	"Special forces" -> "takehome2-part(iii)_Class20003" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,741,584 732,580 678,555 610,521 553,484 537,473 521,461 505,448", lp="618,510"];
+	"Machinery and weapons" -> "Ballistic and cruise missles" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,6375,777 6385,777 6654,766 7489,733 8182,704 8898,674 9763,636 10032,624", lp="7724,730"];
+	"Special forces" -> "takehome2-part(iii)_Class20008" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,808,584 803,575 785,540 759,490 737,448", lp="779,510"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10022" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10032,607 10022,605 9933,587 9796,551 9697,484 9674,468 9653,446 9636,424", lp="9762,510"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10023" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10054,584 10045,579 10006,553 9956,519 9915,484 9894,466 9873,444 9856,424", lp="9960,510"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10020" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10101,584 10097,575 10081,532 10057,470 10038,424", lp="10078,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class11" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6080,344 6090,341 6182,313 6340,261 6464,192 6477,185 6489,177 6502,168", lp="6425,218"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10021" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10129,584 10133,575 10149,532 10173,470 10192,424", lp="10163,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class12" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6080,359 6090,358 6227,346 6510,306 6718,192 6724,188 6731,184 6737,180", lp="6674,218"];
+	Tanks -> "takehome2-part(iii)_Class4" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,11946,586 11937,581 11888,558 11827,523 11779,484 11766,473 11753,461 11741,448", lp="11831,510"];
+	Tanks -> "takehome2-part(iii)_Class3" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,11983,536 11979,527 11968,501 11956,473 11944,448", lp="11978,510"];
+	"Small Arms" -> "takehome2-part(iii)_Class13" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6080,362 6090,361 6253,353 6631,319 6916,192 6924,189 6931,185 6939,180", lp="6878,218"];
+	"Infantry Weapons" -> Mortar [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,6125,594 6135,592 6372,538 6878,421 7062,380", lp="6512,510"];
+	Tanks -> "takehome2-part(iii)_Class5" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,12057,536 12061,527 12073,501 12085,473 12097,448", lp="12074,510"];
+	"Special forces" -> "takehome2-part(iii)_Class20009" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,846,584 851,575 872,533 905,471 929,424", lp="893,510"];
+	"Machinery and weapons" -> Artillery [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,6222,774 6212,773 5863,747 4563,649 4248,625", lp="5739,730"];
+	"Small Arms" -> "takehome2-part(iii)_Class17" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6080,358 6090,357 6318,337 6970,274 7166,192 7169,191 7172,189 7175,188", lp="7100,218"];
+	"Small Arms" -> "takehome2-part(iii)_Class18" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6080,356 6090,355 6383,321 7388,204 7420,192 7423,191 7426,189 7429,188", lp="7290,218"];
+	"Small Arms" -> "takehome2-part(iii)_Class19" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6080,355 6090,354 6264,331 6693,277 7053,244 7162,233 7190,234 7300,226 7466,212 7518,252 7674,192 7677,191 7680,190 7683,188", lp="7618,218"];
+	"Small Arms" -> "takehome2-part(iii)_Class9" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,6080,354 6090,353 6264,328 6693,269 7053,244 7308,225 7372,244 7628,226 7761,216 7805,247 7928,192 7941,186 7954,177 7965,168", lp="7878,218"];
+	Mortar -> "takehome2-part(iii)_Class59" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,7137,340 7141,331 7152,302 7173,262 7207,244 7235,227 8367,229 8401,226 8482,217 8512,235 8582,192 8600,180 8616,162 8628,144", lp="8548,218"];
+	Tanks -> "takehome2-part(iii)_Class1" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,12094,579 12103,574 12144,549 12193,518 12233,484 12246,473 12258,461 12270,448", lp="12210,510"];
+	Tanks -> "takehome2-part(iii)_Class2" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,12094,607 12104,605 12194,586 12338,549 12449,484 12466,474 12482,461 12498,448", lp="12410,510"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10027" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10176,584 10185,579 10224,553 10275,519 10315,484 10335,466 10355,444 10371,424", lp="10293,510"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10026" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10199,604 10209,602 10295,583 10424,546 10521,484 10546,468 10568,445 10587,424", lp="10485,510"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10025" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10199,609 10209,608 10363,586 10656,540 10745,484 10768,469 10788,446 10804,424", lp="10702,510"];
+	Grenade -> "takehome2-part(iii)_Class54" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4782,346 4781,336 4779,307 4770,264 4741,244 4720,228 3808,228 3781,226 3692,217 3665,227 3582,192 3555,180 3528,162 3505,144", lp="4028,218"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10029" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10199,613 10209,612 10396,595 10808,553 10931,484 10956,469 10978,446 10996,424", lp="10887,510"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10028" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10199,617 10209,617 10431,606 10978,571 11137,484 11162,470 11185,446 11202,424", lp="11097,510"];
+	Grenade -> "takehome2-part(iii)_Class52" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4782,346 4781,336 4779,307 4770,264 4741,244 4707,218 4020,229 3977,226 3876,217 3840,240 3750,192 3730,180 3712,162 3698,144", lp="4519,218"];
+	Officers -> "takehome2-part(iii)_Class20013" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2251,606 2241,604 2155,585 2029,549 1937,484 1923,474 1911,461 1900,448", lp="1993,510"];
+	Officers -> "takehome2-part(iii)_Class20012" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2251,568 2242,562 2207,539 2169,513 2137,484 2125,473 2113,461 2102,448", lp="2186,510"];
+	Officers -> "takehome2-part(iii)_Class20015" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2306,536 2302,526 2296,513 2291,499 2285,484", lp="2304,510"];
+	Officers -> "takehome2-part(iii)_Class20014" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2372,536 2376,526 2382,513 2387,499 2393,484", lp="2390,510"];
+	"Ballistic and cruise missles" -> "takehome2-part(iii)_Class10030" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,10199,612 10209,611 10385,596 10777,558 11107,518 11212,505 11249,533 11343,484 11370,470 11394,446 11413,424", lp="11301,510"];
+	"Machinery and weapons" -> Tanks [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,6375,779 6385,779 6807,775 8676,755 10207,704 10882,681 11699,638 11946,624", lp="9465,730"];
+	Officers -> "takehome2-part(iii)_Class20017" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2428,564 2437,559 2471,536 2509,510 2541,484 2544,482 2547,479 2550,477", lp="2523,510"];
+	Officers -> "takehome2-part(iii)_Class20016" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2428,608 2438,606 2536,591 2686,555 2797,484 2800,482 2803,480 2806,478", lp="2771,510"];
+	Officers -> "takehome2-part(iii)_Class20019" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2428,609 2438,608 2600,586 2912,540 3007,484 3018,477 3029,469 3039,460", lp="2963,510"];
+	Officers -> "takehome2-part(iii)_Class20018" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,2428,614 2438,613 2639,598 3084,557 3217,484 3223,481 3229,477 3235,472", lp="3173,510"];
+	"Grenade launcher" -> "takehome2-part(iii)_Class40" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,4893,340 4889,331 4877,302 4856,263 4823,244 4767,212 4306,240 4243,226 4196,215 4152,185 4118,156", lp="4679,218"];
+	"Special forces" -> "takehome2-part(iii)_Class20010" [dir=back, label=io, color="0.0,1.0,1.0", fontcolor="0.0,1.0,1.0", pos="s,906,584 915,580 967,555 1032,520 1087,484 1114,466 1142,444 1166,424", lp="1061,510"];
+}

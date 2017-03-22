@@ -1,0 +1,13 @@
+digraph "takehome-2part(i)" {
+	node [label="\N"];
+	graph [bb="0,0,130,592"];
+	Mammal [label="{Mammal|{offspring|String}|{has|String*}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="65,432", rects="7,444,123,468 7,420,73,444 73,420,123,444 7,396,55,420 55,396,123,420", width="1.61", height="1.00"];
+	Lifeform [label="{Lifeform|{Produces|String}|{Consumes|String*}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="65,556", rects="0,568,130,592 0,544,74,568 74,544,130,568 0,520,74,544 74,520,130,544", width="1.81", height="1.00"];
+	Jesse [label="{Jesse|{owner|String}|{likes|String}|{owns|String}|{age|Float}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="65,60", rects="15,96,116,120 15,72,66,96 66,72,116,96 15,48,62,72 62,48,116,72 15,24,63,48 63,24,116,48 15,0,60,24 60,0,116,24", width="1.39", height="1.67"];
+	"Golden Retriever" [label="{Golden Retriever|{has|String*}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="65,196", rects="9,196,121,220 9,172,55,196 55,172,121,196", width="1.56", height="0.67"];
+	Dog [label="{Dog|{has|String*}|{hates|String}}", shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="65,308", rects="17,320,113,344 17,296,55,320 55,296,113,320 17,272,63,296 63,272,113,296", width="1.33", height="1.00"];
+	Lifeform -> Mammal [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,65,520 65,510 65,496 65,482 65,468", lp="73,494"];
+	"Golden Retriever" -> Jesse [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,65,172 65,162 65,149 65,134 65,120", lp="73,146"];
+	Mammal -> Dog [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,65,396 65,386 65,372 65,358 65,344", lp="73,370"];
+	Dog -> "Golden Retriever" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", pos="s,65,272 65,262 65,247 65,232 65,220", lp="73,246"];
+}

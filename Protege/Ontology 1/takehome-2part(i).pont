@@ -1,0 +1,143 @@
+; Fri Oct 30 12:11:19 EDT 2015
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot offspring
+;+		(comment "mammals offspring are born live")
+		(type STRING)
+;+		(value "born live")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot hates
+;+		(comment "Dogs usually hates cats")
+		(type STRING)
+;+		(value "cats")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot owner
+;+		(comment "Owner of jesse is Leslie schalkoff")
+		(type STRING)
+;+		(value "Leslie Schalkoff")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot has
+;+		(comment "specifies what the mammal has")
+		(type STRING)
+;+		(value "warm blood")
+		(create-accessor read-write))
+	(single-slot age
+;+		(comment "Jesse is 3.5 years old")
+		(type FLOAT)
+;+		(value 3.5)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Consumes
+;+		(comment "Lifeform consumes oxygen and food")
+		(type STRING)
+;+		(value "Oxygen" "Food")
+		(create-accessor read-write))
+	(single-slot likes
+;+		(comment "Jesse enjoys riding in cars")
+		(type STRING)
+;+		(value "riding in cars")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Produces
+;+		(comment "Lifeform produces Waste")
+		(type STRING)
+;+		(value "Waste")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot owns
+;+		(comment "Jesse owns Tennis ball")
+		(type STRING)
+;+		(value "Tennis ball")
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Lifeform "Lifeform refers to any living being"
+	(is-a USER)
+	(role concrete)
+	(single-slot Produces
+;+		(comment "Lifeform produces Waste")
+		(type STRING)
+;+		(value "Waste")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Consumes
+;+		(comment "Lifeform consumes oxygen and food")
+		(type STRING)
+;+		(value "Oxygen" "Food")
+		(create-accessor read-write)))
+
+(defclass Mammal "Mammals are  distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex"
+	(is-a Lifeform)
+	(role concrete)
+	(single-slot offspring
+;+		(comment "mammals offspring are born live")
+		(type STRING)
+;+		(value "born live")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot has
+;+		(comment "specifies what the mammal has")
+		(type STRING)
+;+		(value "warm blood")
+		(create-accessor read-write)))
+
+(defclass Dog "Dog is a type of mammal"
+	(is-a Mammal)
+	(role concrete)
+	(multislot has
+;+		(comment "specifies what the mammal has")
+		(type STRING)
+;+		(value "water dish" "four legs" "warm blood")
+		(create-accessor read-write))
+	(single-slot hates
+;+		(comment "Dogs usually hates cats")
+		(type STRING)
+;+		(value "cats")
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Golden+Retriever "Golden retriever are a breed of dog which are large in size"
+	(is-a Dog)
+	(role concrete)
+	(multislot has
+;+		(comment "specifies what the mammal has")
+		(type STRING)
+;+		(value "warm blood" "four legs" "water dish" "excellent retrieving skills" "large frame" "heavy fur coat")
+		(create-accessor read-write)))
+
+(defclass Jesse "Jesse is a golden retriever owned by leslie schalkoff"
+	(is-a Golden+Retriever)
+	(role concrete)
+	(single-slot owner
+;+		(comment "Owner of jesse is Leslie schalkoff")
+		(type STRING)
+;+		(value "Leslie Schalkoff")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot likes
+;+		(comment "Jesse enjoys riding in cars")
+		(type STRING)
+;+		(value "riding in cars")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot owns
+;+		(comment "Jesse owns Tennis ball")
+		(type STRING)
+;+		(value "Tennis ball")
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot age
+;+		(comment "Jesse is 3.5 years old")
+		(type FLOAT)
+;+		(value 3.5)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))

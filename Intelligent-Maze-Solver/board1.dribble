@@ -1,0 +1,60 @@
+TRUE
+CLIPS> (load "C:/Users/arjun/Desktop/knowledge engineering code old/board1final.clp")
+Defining deftemplate: cell
+Defining deffacts: start
+Defining deftemplate: start_end_cells
+Defining defglobal: up
+Defining defglobal: down
+Defining defglobal: left
+Defining defglobal: right
+Defining defglobal: distance
+Defining defglobal: adistance
+Defining deftemplate: current_cell
+Defining defrule: findSandE +j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+Defining defrule: down +j+j+j+j+j
+Defining defrule: left =j+j+j+j+j
+Defining defrule: right =j+j+j+j+j
+Defining defrule: up =j+j+j+j+j
+Defining defrule: movedownagain =j+j+j+j+j
+Defining defrule: moveupagain =j=j+j+j+j
+Defining defrule: moverightagain =j=j+j+j+j
+Defining defrule: moveleftagain =j=j+j+j+j
+Defining defrule: move-no-more =j+j
+Defining defrule: evalsalience +j+j
+Defining defrule: ended =j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+TRUE
+CLIPS> (reset)
+CLIPS> (run)
+
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxooSxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxExoxox
+moving down
+moving down
+moving down
+moving down
+moving down
+The End :row 11 col 6
+number of steps taken is 5
+shortest distance is 5
+
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxooSxoxox
+xoxox*xoxox
+xoxox*xoxox
+xoxox*xoxox
+xoxox*xoxox
+xoxox*xoxox
+CLIPS> (dribble-off)

@@ -1,0 +1,96 @@
+TRUE
+CLIPS> (load "C:/Users/arjun/Desktop/knowledge engineering code old/board4final.clp")
+Defining deftemplate: cell
+Defining deffacts: start
+Defining deftemplate: start_end_cells
+Defining defglobal: up
+Defining defglobal: down
+Defining defglobal: left
+Defining defglobal: right
+Defining defglobal: distance
+Defining defglobal: adistance
+Defining deftemplate: current_cell
+Defining defrule: findSandE +j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+Defining defrule: down +j+j+j+j+j
+Defining defrule: left =j+j+j+j+j
+Defining defrule: right =j+j+j+j+j
+Defining defrule: up =j+j+j+j+j
+Defining defrule: movedownagain =j+j+j+j+j
+Defining defrule: moveupagain =j=j+j+j+j
+Defining defrule: moverightagain =j=j+j+j+j
+Defining defrule: moveleftagain =j=j+j+j+j
+Defining defrule: move-no-more =j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+=j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+=j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+=j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+Defining defrule: evalsalience +j+j
+Defining defrule: ended =j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j+j
+TRUE
+CLIPS> (reset)
+CLIPS> (run)
+
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxooSxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xoxoxoxoxox
+xExoxoxoxox
+xoxoxxxoxox
+moving down
+moving down
+moving down
+moving down
+moving down
+tracking back up
+tracking back up
+tracking back up
+tracking back up
+tracking back up
+moving up
+moving up
+moving up
+moving up
+moving up
+tracking back down
+tracking back down
+tracking back down
+tracking back down
+tracking back down
+tracking back right
+tracking back right
+moving down
+moving down
+moving down
+moving down
+tracking back up
+tracking back up
+tracking back up
+tracking back up
+moving up
+moving up
+moving up
+moving up
+moving up
+tracking back down
+tracking back down
+tracking back down
+tracking back down
+tracking back down
+No solution to maze
+
+xox.x.xoxox
+xox.x.xoxox
+xox.x.xoxox
+xox.x.xoxox
+xox.x.xoxox
+xox..Sxoxox
+xox.x.xoxox
+xox.x.xoxox
+xox.x.xoxox
+xEx.x.xoxox
+xox.xxxoxox
+CLIPS> (dribble-off)
